@@ -87,3 +87,4 @@ public:
         cout << "Total motoare create: " << totalMotoare << endl;
     }
 };
+int Motor::totalMotoare = 0;
