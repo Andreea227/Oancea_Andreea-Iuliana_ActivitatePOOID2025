@@ -69,4 +69,15 @@ public:
         revizii = nullptr;
         totalMotoare++;
     }
+    Motor(string tip, float capacitate, int nrRevizii, float* revizii) : nrCilindri(4) {
+        this->tip = tip;
+        this->capacitate = capacitate;
+        this->nrRevizii = nrRevizii;
+
+        this->revizii = new float[nrRevizii];
+        for (int i = 0; i < nrRevizii; i++)
+            this->revizii[i] = revizii[i];
+
+        totalMotoare++;
+    }
 };
