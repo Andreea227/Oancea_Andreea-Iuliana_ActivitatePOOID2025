@@ -28,3 +28,11 @@ public:
 
 	}
 };
+int main() {
+	Persoana p1{ "Ana",20 };
+	cout << p1 << endl;
+	Persoana p2{ "Maria",25 };
+	cout << p2 << endl;
+	Persoana p3{ "Ioana",30 };
+	cout << p3 << endl;
+ }
