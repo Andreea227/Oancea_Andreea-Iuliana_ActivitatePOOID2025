@@ -13,4 +13,8 @@ public:
 		nume = nume;
 		varsta = varsta;
 	}
+
+	string getNume()const {
+		return nume;
+	}
 };
