@@ -35,4 +35,6 @@ int main() {
 	cout << p2 << endl;
 	Persoana p3{ "Ioana",30 };
 	cout << p3 << endl;
+
+	return 0;
  }
