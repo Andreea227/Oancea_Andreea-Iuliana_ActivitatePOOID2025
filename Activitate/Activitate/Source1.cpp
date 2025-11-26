@@ -2,6 +2,11 @@
 #include<iostream>
 #include<string>
 
+using namespace std;
+
 class Persoana {
+private:
+	string nume;
+	int varsta;
 
 };
