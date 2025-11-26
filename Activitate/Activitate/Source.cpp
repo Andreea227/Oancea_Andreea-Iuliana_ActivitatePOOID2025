@@ -19,4 +19,12 @@ public:
         preturi = nullptr;
         totalMasini++;
     }
+
+    Masina(string marca, int an) : nrRoti(4) {
+        this->marca = marca;
+        anFabricatie = an;
+        nrPreturi = 0;
+        preturi = nullptr;
+        totalMasini++;
+    }
 };
