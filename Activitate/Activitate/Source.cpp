@@ -45,3 +45,13 @@ public:
     }
 };
 int Masina::totalMasini = 0;
+
+class Motor {
+public:
+    string tip;
+    float capacitate;
+    static int totalMotoare;
+    const int nrCilindri;
+    float* revizii;
+    int nrRevizii;
+};
