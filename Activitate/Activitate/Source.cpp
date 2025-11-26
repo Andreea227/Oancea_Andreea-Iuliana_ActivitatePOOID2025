@@ -54,4 +54,13 @@ public:
     const int nrCilindri;
     float* revizii;
     int nrRevizii;
+
+    Motor() : nrCilindri(4) {
+        tip = "Necunoscut";
+        capacitate = 0;
+        nrRevizii = 0;
+        revizii = nullptr;
+        totalMotoare++;
+    }
+
 };
