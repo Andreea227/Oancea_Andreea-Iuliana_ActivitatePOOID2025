@@ -140,10 +140,14 @@ int main() {
     Masina m3("Audi", 2020, 3, preturi);
 
     Masina::afisareTotal();
-
     Motor mo1;
     Motor mo2("Diesel", 2.0f);
     Motor mo3("Benzina", 1.6f, 2, rev);
 
     Motor::total();
+    ServiceAuto s1;
+    ServiceAuto s2("AutoFix", 5);
+    ServiceAuto s3("PremiumService", 10, 3, salarii);
+
+    ServiceAuto::total();
 }
