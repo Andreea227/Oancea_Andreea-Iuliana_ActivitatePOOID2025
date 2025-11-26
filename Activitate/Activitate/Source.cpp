@@ -44,3 +44,4 @@ public:
         cout << "Total masini create: " << totalMasini << endl;
     }
 };
+int Masina::totalMasini = 0;
