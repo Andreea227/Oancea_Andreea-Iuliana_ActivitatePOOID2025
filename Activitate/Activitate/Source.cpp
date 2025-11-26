@@ -80,4 +80,7 @@ public:
 
         totalMotoare++;
     }
+    ~Motor() {
+        delete[] revizii;
+    }
 };
