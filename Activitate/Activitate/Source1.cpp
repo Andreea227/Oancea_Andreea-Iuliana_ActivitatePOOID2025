@@ -21,4 +21,10 @@ public:
 	int getVarsta(int varsta) {
 		varsta = varsta;
 	}
+
+	friend ostream& operator<<(ostream&out, const Persoana& p) {
+		out << "Nume:" << p.nume << endl;
+		out << "Varsta:" << p.varsta << endl;
+
+	}
 };
