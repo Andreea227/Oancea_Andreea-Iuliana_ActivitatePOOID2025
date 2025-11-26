@@ -122,4 +122,7 @@ public:
 
         totalServiceuri++;
     }
+    ~ServiceAuto() {
+        delete[] salarii;
+    }
 };
