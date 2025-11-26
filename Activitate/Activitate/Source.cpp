@@ -89,5 +89,11 @@ public:
 };
 int Motor::totalMotoare = 0;
 class ServiceAuto {
-
+public:
+    string nume;
+    int nrMecanici;
+    static int totalServiceuri;
+    const int anDeschidere;
+    int* salarii;
+    int nrSalarii;
 };
