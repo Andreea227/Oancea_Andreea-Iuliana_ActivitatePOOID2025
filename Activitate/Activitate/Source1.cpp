@@ -17,4 +17,8 @@ public:
 	string getNume()const {
 		return nume;
 	}
+	 
+	int getVarsta(int varsta) {
+		varsta = varsta;
+	}
 };
