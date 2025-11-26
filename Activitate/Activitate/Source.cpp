@@ -88,3 +88,6 @@ public:
     }
 };
 int Motor::totalMotoare = 0;
+class ServiceAuto {
+
+};
