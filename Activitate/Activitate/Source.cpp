@@ -11,4 +11,12 @@ public:
     static int totalMasini; 
     float* preturi;      
     int nrPreturi;
+
+    Masina() : nrRoti(4) {
+        marca = "Necunoscut";
+        anFabricatie = 0;
+        nrPreturi = 0;
+        preturi = nullptr;
+        totalMasini++;
+    }
 };
