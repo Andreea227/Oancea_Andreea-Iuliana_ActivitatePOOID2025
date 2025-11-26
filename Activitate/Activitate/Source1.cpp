@@ -8,5 +8,9 @@ class Persoana {
 private:
 	string nume;
 	int varsta;
-
+public:
+	Persoana(string nume, int varsta) {
+		nume = nume;
+		varsta = varsta;
+	}
 };
