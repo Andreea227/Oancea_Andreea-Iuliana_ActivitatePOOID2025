@@ -40,4 +40,7 @@ public:
     ~Masina() {
         delete[] preturi;
     }
+    static void afisareTotal() {
+        cout << "Total masini create: " << totalMasini << endl;
+    }
 };
