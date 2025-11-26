@@ -130,3 +130,7 @@ public:
     }
 };
 int ServiceAuto::totalServiceuri = 0;
+
+int main() {
+
+}
