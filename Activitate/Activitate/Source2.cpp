@@ -76,4 +76,5 @@ public:
     static void afisareTotal() {
         cout << "Total masini create: " << totalMasini << endl;
     }
+    friend float pretMediuMasina(const Masina&);
 };
