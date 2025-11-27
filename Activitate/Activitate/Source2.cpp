@@ -170,4 +170,10 @@ public:
     int getAnDeschidere() const {
         return anDeschidere;
     }
+    void setNume(string n) {
+        nume = n; }
+    void setNrMecanici(int x) {
+        nrMecanici = x; 
+    }
+
 };
