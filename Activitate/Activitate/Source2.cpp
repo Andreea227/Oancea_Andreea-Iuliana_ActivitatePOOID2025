@@ -225,3 +225,4 @@ public:
         cout << "Total service-uri create: " << totalServiceuri << endl;
     }
 };
+int ServiceAuto::totalServiceuri = 0;
