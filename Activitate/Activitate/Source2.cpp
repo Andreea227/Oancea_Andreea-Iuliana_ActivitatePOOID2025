@@ -102,4 +102,11 @@ public:
     void setCapacitate(float c) {
         capacitate = c; 
     }
+    Motor() : nrCilindri(4) {
+        tip = "Necunoscut";
+        capacitate = 0;
+        nrRevizii = 0;
+        revizii = nullptr;
+        totalMotoare++;
+    }
 };
