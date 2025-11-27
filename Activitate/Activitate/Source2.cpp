@@ -77,4 +77,6 @@ public:
         cout << "Total masini create: " << totalMasini << endl;
     }
     friend float pretMediuMasina(const Masina&);
+    
 };
+int Masina::totalMasini = 0;
