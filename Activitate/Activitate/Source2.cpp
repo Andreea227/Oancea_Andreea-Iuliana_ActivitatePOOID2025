@@ -264,4 +264,6 @@ int main() {
         ServiceAuto s3("PremiumService", 10, 3, salarii);
 
         ServiceAuto::total();
+
+        return 0;
 }
