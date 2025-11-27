@@ -175,5 +175,12 @@ public:
     void setNrMecanici(int x) {
         nrMecanici = x; 
     }
+    ServiceAuto() : anDeschidere(2000) {
+        nume = "Necunoscut";
+        nrMecanici = 0;
+        nrSalarii = 0;
+        salarii = nullptr;
+        totalServiceuri++;
+    }
 
 };
