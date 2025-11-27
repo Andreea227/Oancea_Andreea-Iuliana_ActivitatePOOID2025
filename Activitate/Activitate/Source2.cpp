@@ -11,4 +11,17 @@ private:
     static int totalMasini;
     float* preturi;
     int nrPreturi;
+public:
+    string getMarca() const { 
+        return marca; }
+    int getAn() const { 
+        return anFabricatie; }
+    int getNrRoti() const {
+        return nrRoti; }
+    int getNrPreturi() const {
+        return nrPreturi; }
+    float getPret(int i) const {
+        return (i >= 0 && i < nrPreturi) ? preturi[i] : 0;
+    }
+
 };
