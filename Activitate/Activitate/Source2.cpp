@@ -109,4 +109,12 @@ public:
         revizii = nullptr;
         totalMotoare++;
     }
+    Motor(string tip, float capacitate) : nrCilindri(4) {
+        this->tip = tip;
+        this->capacitate = capacitate;
+        nrRevizii = 0;
+        revizii = nullptr;
+        totalMotoare++;
+    }
+
 };
