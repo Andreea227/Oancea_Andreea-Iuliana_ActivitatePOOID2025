@@ -200,4 +200,21 @@ public:
 
         totalServiceuri++;
     }
+    ServiceAuto(const ServiceAuto& s) : anDeschidere(2000) {
+        nume = s.nume;
+        nrMecanici = s.nrMecanici;
+        nrSalarii = s.nrSalarii;
+
+        if (s.salarii != nullptr) {
+            salarii = new int[nrSalarii];
+            for (int i = 0; i < nrSalarii; i++)
+                salarii[i] = s.salarii[i];
+        }
+        else {
+            salarii = nullptr;
+        }
+
+        totalServiceuri++;
+    }
+
 };
