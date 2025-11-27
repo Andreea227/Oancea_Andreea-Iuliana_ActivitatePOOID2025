@@ -151,4 +151,5 @@ public:
     static void total() {
         cout << "Total motoare create: " << totalMotoare << endl;
     }
+    friend float sumaRevizii(const Motor&);
 };
