@@ -97,4 +97,9 @@ public:
     int getNrCilindri() const {
         return nrCilindri;
     }
+    void setTip(string t) {
+        tip = t; }
+    void setCapacitate(float c) {
+        capacitate = c; 
+    }
 };
