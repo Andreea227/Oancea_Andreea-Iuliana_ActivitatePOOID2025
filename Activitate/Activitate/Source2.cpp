@@ -80,3 +80,6 @@ public:
     
 };
 int Masina::totalMasini = 0;
+class Motor {
+
+};
