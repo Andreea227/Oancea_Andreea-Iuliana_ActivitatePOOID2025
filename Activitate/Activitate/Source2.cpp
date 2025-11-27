@@ -219,5 +219,9 @@ public:
     ~ServiceAuto() {
         delete[] salarii;
     }
+    static int getTotalServiceuri() { return totalServiceuri; }
 
+    static void total() {
+        cout << "Total service-uri create: " << totalServiceuri << endl;
+    }
 };
