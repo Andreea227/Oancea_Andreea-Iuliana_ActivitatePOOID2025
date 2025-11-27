@@ -245,5 +245,11 @@ int main() {
         float rev[] = { 500, 700 };
         int salarii[] = { 3000, 3500, 4000 };
 
+        Masina m1;
+        Masina m2("BMW", 2018);
+        Masina m3("Audi", 2020, 3, preturi);
+
+        cout << "Pret mediu masina m3: " << pretMediuMasina(m3) << endl;
+        Masina::afisareTotal();
 
 }
