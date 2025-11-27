@@ -258,4 +258,10 @@ int main() {
 
         cout << "Suma revizii mo3: " << sumaRevizii(mo3) << endl;
         Motor::total();
+
+        ServiceAuto s1;
+        ServiceAuto s2("AutoFix", 5);
+        ServiceAuto s3("PremiumService", 10, 3, salarii);
+
+        ServiceAuto::total();
 }
