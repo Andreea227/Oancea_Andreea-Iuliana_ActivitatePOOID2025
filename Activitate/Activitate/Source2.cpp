@@ -24,4 +24,8 @@ public:
         return (i >= 0 && i < nrPreturi) ? preturi[i] : 0;
     }
 
+    void setMarca(string m) {
+        marca = m; }
+    void setAn(int a) {
+        anFabricatie = a; }
 };
