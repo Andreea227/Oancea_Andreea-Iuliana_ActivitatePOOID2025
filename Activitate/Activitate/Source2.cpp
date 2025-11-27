@@ -234,3 +234,9 @@ float pretMediuMasina(const Masina& m) {
         s += m.preturi[i];
     return s / m.nrPreturi;
 }
+float sumaRevizii(const Motor& m) {
+    float s = 0;
+    for (int i = 0; i < m.nrRevizii; i++)
+        s += m.revizii[i];
+    return s;
+}
