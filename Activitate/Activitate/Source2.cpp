@@ -189,4 +189,15 @@ public:
         salarii = nullptr;
         totalServiceuri++;
     }
+    ServiceAuto(string n, int m, int ns, int* sal) : anDeschidere(2000) {
+        nume = n;
+        nrMecanici = m;
+        nrSalarii = ns;
+
+        salarii = new int[nrSalarii];
+        for (int i = 0; i < nrSalarii; i++)
+            salarii[i] = sal[i];
+
+        totalServiceuri++;
+    }
 };
