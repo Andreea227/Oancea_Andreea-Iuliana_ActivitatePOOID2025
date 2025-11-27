@@ -146,5 +146,9 @@ public:
     ~Motor() {
         delete[] revizii;
     }
+    static int getTotalMotoare() { return totalMotoare; }
 
+    static void total() {
+        cout << "Total motoare create: " << totalMotoare << endl;
+    }
 };
