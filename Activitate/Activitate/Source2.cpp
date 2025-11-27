@@ -182,5 +182,11 @@ public:
         salarii = nullptr;
         totalServiceuri++;
     }
-
+    ServiceAuto(string n, int m) : anDeschidere(2000) {
+        nume = n;
+        nrMecanici = m;
+        nrSalarii = 0;
+        salarii = nullptr;
+        totalServiceuri++;
+    }
 };
