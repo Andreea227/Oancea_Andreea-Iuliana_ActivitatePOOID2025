@@ -71,4 +71,5 @@ public:
     ~Masina() {
         delete[] preturi;
     }
+    static int getTotalMasini() { return totalMasini; }
 };
