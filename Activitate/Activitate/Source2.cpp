@@ -68,5 +68,7 @@ public:
 
         totalMasini++;
     }
-
+    ~Masina() {
+        delete[] preturi;
+    }
 };
