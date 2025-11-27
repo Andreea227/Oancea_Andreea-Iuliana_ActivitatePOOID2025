@@ -72,4 +72,8 @@ public:
         delete[] preturi;
     }
     static int getTotalMasini() { return totalMasini; }
+
+    static void afisareTotal() {
+        cout << "Total masini create: " << totalMasini << endl;
+    }
 };
