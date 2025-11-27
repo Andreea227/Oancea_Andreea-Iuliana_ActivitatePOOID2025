@@ -162,4 +162,12 @@ private:
     const int anDeschidere;
     int* salarii;
     int nrSalarii;
+public:
+    string getNume() const {
+        return nume; }
+    int getNrMecanici() const { 
+        return nrMecanici; }
+    int getAnDeschidere() const {
+        return anDeschidere;
+    }
 };
