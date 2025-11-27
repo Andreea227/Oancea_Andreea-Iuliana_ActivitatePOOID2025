@@ -88,4 +88,13 @@ private:
     const int nrCilindri;
     float* revizii;
     int nrRevizii;
+
+public:
+    string getTip() const {
+        return tip; }
+    float getCapacitate() const { 
+        return capacitate; }
+    int getNrCilindri() const {
+        return nrCilindri;
+    }
 };
