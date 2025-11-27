@@ -252,4 +252,10 @@ int main() {
         cout << "Pret mediu masina m3: " << pretMediuMasina(m3) << endl;
         Masina::afisareTotal();
 
+        Motor mo1;
+        Motor mo2("Diesel", 2.0f);
+        Motor mo3("Benzina", 1.6f, 2, rev);
+
+        cout << "Suma revizii mo3: " << sumaRevizii(mo3) << endl;
+        Motor::total();
 }
