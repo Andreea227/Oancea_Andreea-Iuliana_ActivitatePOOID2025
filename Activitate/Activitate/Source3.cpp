@@ -46,4 +46,7 @@ public:
     int getConsumW() const {
         return this->consumW;
     }
+    void setConsumW(int consumNou) {
+        this->consumW = consumNou;
+    }
 };
