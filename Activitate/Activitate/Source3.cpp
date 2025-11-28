@@ -70,4 +70,5 @@ int main() {
     cout << "Consum nou: " << a2.getConsumW() << " W" << endl;
     AparatElectrocasnic a3 = a2; 
     cout << a3 << endl;
+    return 0;
 }
