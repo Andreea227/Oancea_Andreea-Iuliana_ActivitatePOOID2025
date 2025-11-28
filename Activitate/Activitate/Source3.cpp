@@ -5,5 +5,11 @@
 using namespace std;
 
 class AparatElectrocasnic {
+private:
+    string denumire;
+    int consumW;
+    int nrFunctii;
+    int* timpFunctii;
+
 
 };
