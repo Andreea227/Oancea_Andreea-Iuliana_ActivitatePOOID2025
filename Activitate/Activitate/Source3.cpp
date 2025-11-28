@@ -73,5 +73,11 @@ int main() {
     cout << "Consum nou: " << a2.getConsumW() << " W" << endl;
     AparatElectrocasnic a3 = a2; 
     cout << a3 << endl;
+    if (a2 == a3) {
+        cout << "a2 si a3 sunt identice dupa consum si numar de functii." << endl;
+    }
+    else {
+        cout << "a2 si a3 sunt diferite." << endl;
+    }
     return 0;
 }
