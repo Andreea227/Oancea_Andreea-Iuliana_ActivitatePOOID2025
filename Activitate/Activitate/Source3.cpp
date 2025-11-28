@@ -28,5 +28,15 @@ public:
             this->timpFunctii[i] = timpFunctii[i];
         }
     }
+    AparatElectrocasnic(const AparatElectrocasnic& a) {
+        this->denumire = a.denumire;
+        this->consumW = a.consumW;
+        this->nrFunctii = a.nrFunctii;
+
+        this->timpFunctii = new int[a.nrFunctii];
+        for (int i = 0; i < a.nrFunctii; i++) {
+            this->timpFunctii[i] = a.timpFunctii[i];
+        }
+    }
 
 };
