@@ -11,5 +11,11 @@ private:
     int nrFunctii;
     int* timpFunctii;
 
-
+public:
+    AparatElectrocasnic() {
+        this->denumire = "";
+        this->consumW = 0;
+        this->nrFunctii = 0;
+        this->timpFunctii = nullptr;
+    }
 };
