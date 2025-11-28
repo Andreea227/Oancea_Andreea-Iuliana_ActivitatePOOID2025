@@ -38,5 +38,10 @@ public:
             this->timpFunctii[i] = a.timpFunctii[i];
         }
     }
+    ~AparatElectrocasnic() {
+        if (this->timpFunctii != nullptr) {
+            delete[] this->timpFunctii;
+        }
+    }
 
 };
