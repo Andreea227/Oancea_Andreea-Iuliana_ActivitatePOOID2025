@@ -49,4 +49,15 @@ public:
     void setConsumW(int consumNou) {
         this->consumW = consumNou;
     }
+    friend ostream& operator<<(ostream& out, const AparatElectrocasnic& a) {
+        out << "Denumire: " << a.denumire << endl;
+        out << "Consum (W): " << a.consumW << endl;
+        out << "Numar functii: " << a.nrFunctii << endl;
+
+        for (int i = 0; i < a.nrFunctii; i++) {
+            out << "  Timp functie " << i + 1 << ": " << a.timpFunctii[i] << " minute" << endl;
+        }
+
+        return out;
+    }
 };
