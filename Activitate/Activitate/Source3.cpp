@@ -49,6 +49,9 @@ public:
     void setConsumW(int consumNou) {
         this->consumW = consumNou;
     }
+    bool operator==(const AparatElectrocasnic& a) const {
+        return (this->consumW == a.consumW && this->nrFunctii == a.nrFunctii);
+    }
     friend ostream& operator<<(ostream& out, const AparatElectrocasnic& a) {
         out << "Denumire: " << a.denumire << endl;
         out << "Consum (W): " << a.consumW << endl;
