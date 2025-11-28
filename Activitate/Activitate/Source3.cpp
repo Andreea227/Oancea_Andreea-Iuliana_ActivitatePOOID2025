@@ -61,3 +61,9 @@ public:
         return out;
     }
 };
+int main() {
+    int functii[] = { 15, 25, 40 }; 
+    AparatElectrocasnic a1; 
+    AparatElectrocasnic a2("Aspirator", 800, 3, functii); 
+    cout << a2 << endl; 
+}
