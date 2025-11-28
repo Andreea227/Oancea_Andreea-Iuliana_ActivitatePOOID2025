@@ -18,4 +18,15 @@ public:
         this->nrFunctii = 0;
         this->timpFunctii = nullptr;
     }
+    AparatElectrocasnic(string denumire, int consumW, int nrFunctii, int* timpFunctii) {
+        this->denumire = denumire;
+        this->consumW = consumW;
+        this->nrFunctii = nrFunctii;
+
+        this->timpFunctii = new int[nrFunctii];
+        for (int i = 0; i < nrFunctii; i++) {
+            this->timpFunctii[i] = timpFunctii[i];
+        }
+    }
+
 };
