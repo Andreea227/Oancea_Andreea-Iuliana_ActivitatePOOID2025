@@ -43,5 +43,7 @@ public:
             delete[] this->timpFunctii;
         }
     }
-
+    int getConsumW() const {
+        return this->consumW;
+    }
 };
