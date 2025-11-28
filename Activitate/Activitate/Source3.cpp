@@ -68,4 +68,6 @@ int main() {
     cout << a2 << endl; 
     a2.setConsumW(900); 
     cout << "Consum nou: " << a2.getConsumW() << " W" << endl;
+    AparatElectrocasnic a3 = a2; 
+    cout << a3 << endl;
 }
