@@ -66,4 +66,6 @@ int main() {
     AparatElectrocasnic a1; 
     AparatElectrocasnic a2("Aspirator", 800, 3, functii); 
     cout << a2 << endl; 
+    a2.setConsumW(900); 
+    cout << "Consum nou: " << a2.getConsumW() << " W" << endl;
 }
