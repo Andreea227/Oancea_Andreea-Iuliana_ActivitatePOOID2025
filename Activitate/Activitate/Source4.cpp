@@ -70,4 +70,5 @@ int main() {
     AparatAudio a2("AudioTech", 150, 3, ani);
     cout << "Aparat initial:" << endl;
     cout << a2 << endl;
+    a2.setPutereW(200);
 }
