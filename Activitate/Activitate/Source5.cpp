@@ -71,5 +71,5 @@ int main() {
     f2.setRezolutie(30);
     cout << "Rezolutie noua: " << f2.getRezolutie() << " MP" << endl;
     AparatFoto f3 = f2;
-
+    cout << f3 << endl;
 }
