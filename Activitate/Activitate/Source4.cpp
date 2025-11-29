@@ -45,5 +45,8 @@ public:
     int getPutereW() const {
         return this->putereW;
     }
+    void setPutereW(int nouaPutere) {
+        this->putereW = nouaPutere;
+    }
 
 };
