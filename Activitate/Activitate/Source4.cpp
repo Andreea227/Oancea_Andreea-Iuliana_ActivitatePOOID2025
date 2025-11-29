@@ -27,5 +27,14 @@ public:
             this->aniModele[i] = aniModele[i];
         }
     }
+    AparatAudio(const AparatAudio& a) {
+        this->marca = a.marca;
+        this->putereW = a.putereW;
+        this->nrModele = a.nrModele;
 
+        this->aniModele = new int[a.nrModele];
+        for (int i = 0; i < a.nrModele; i++) {
+            this->aniModele[i] = a.aniModele[i];
+        }
+    }
 };
