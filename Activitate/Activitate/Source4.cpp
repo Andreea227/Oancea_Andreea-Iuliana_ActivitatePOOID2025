@@ -73,4 +73,6 @@ int main() {
     a2.setPutereW(200);
     cout << "Putere noua: " << a2.getPutereW() << " W" << endl;
     AparatAudio a3 = a2;
+    cout << "Obiect copiat:" << endl;
+    cout << a3 << endl;
 }
