@@ -63,3 +63,6 @@ public:
             this->nrModele == a.nrModele);
     }
 };
+int main() {
+
+}
