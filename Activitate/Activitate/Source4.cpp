@@ -48,5 +48,15 @@ public:
     void setPutereW(int nouaPutere) {
         this->putereW = nouaPutere;
     }
+    friend ostream& operator<<(ostream& out, const AparatAudio& a) {
+        out << "Marca: " << a.marca << endl;
+        out << "Putere (W): " << a.putereW << endl;
+        out << "Numar modele: " << a.nrModele << endl;
+        for (int i = 0; i < a.nrModele; i++) {
+            out << "  Model " << i + 1 << ": anul " << a.aniModele[i] << endl;
+        }
+        return out;
+    }
+
 
 };
