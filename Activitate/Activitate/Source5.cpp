@@ -78,4 +78,5 @@ int main() {
     else {
         cout << "Aparatele sunt identice." << endl;
     }
+    return 0;
 }
