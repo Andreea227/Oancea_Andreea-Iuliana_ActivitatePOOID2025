@@ -58,4 +58,8 @@ public:
 
         return out;
     }
+    bool operator!=(const AparatFoto& a) const {
+        return !(this->rezolutieMP == a.rezolutieMP &&
+            this->nrModele == a.nrModele);
+    }
 };
