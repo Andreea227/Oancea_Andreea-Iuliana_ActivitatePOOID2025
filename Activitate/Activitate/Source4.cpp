@@ -5,5 +5,10 @@
 using namespace std;
 
 class AparatAudio {
+private:
+    string marca;
+    int putereW;
+    int nrModele;
+    int* aniModele;
 
 };
