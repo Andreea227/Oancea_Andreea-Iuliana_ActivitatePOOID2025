@@ -76,4 +76,6 @@ int main() {
     cout << "Obiect copiat:" << endl;
     cout << a3 << endl;
     AparatAudio a4 = a3 + 50;
+    cout << "Dupa marirea puterii cu operator+ :" << endl;
+    cout << a4 << endl;
 }
