@@ -66,4 +66,5 @@ public:
 int main() {
     int ani[] = { 2019, 2021, 2023 };
     AparatFoto f1;
+    AparatFoto f2("Canon", 24, 3, ani);
 }
