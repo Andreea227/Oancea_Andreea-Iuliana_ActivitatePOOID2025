@@ -65,4 +65,5 @@ public:
 };
 int main() {
     int ani[] = { 2019, 2021, 2023 };
+    AparatFoto f1;
 }
