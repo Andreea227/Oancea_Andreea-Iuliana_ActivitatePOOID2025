@@ -41,4 +41,7 @@ public:
         if (this->aniLansare != nullptr)
             delete[] this->aniLansare;
     }
+    int getRezolutie() const {
+        return this->rezolutieMP;
+    }
 };
