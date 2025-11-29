@@ -57,6 +57,10 @@ public:
         }
         return out;
     }
-
+    AparatAudio operator+(int x) const {
+        AparatAudio copie = *this;
+        copie.putereW += x;
+        return copie;
+    }
 
 };
