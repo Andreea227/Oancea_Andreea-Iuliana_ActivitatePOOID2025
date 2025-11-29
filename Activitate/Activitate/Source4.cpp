@@ -10,5 +10,11 @@ private:
     int putereW;
     int nrModele;
     int* aniModele;
-
+public:
+    AparatAudio() {
+        this->marca = "";
+        this->putereW = 0;
+        this->nrModele = 0;
+        this->aniModele = nullptr;
+    }
 };
