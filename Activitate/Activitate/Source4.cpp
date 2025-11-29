@@ -71,4 +71,6 @@ int main() {
     cout << "Aparat initial:" << endl;
     cout << a2 << endl;
     a2.setPutereW(200);
+    cout << "Putere noua: " << a2.getPutereW() << " W" << endl;
+    AparatAudio a3 = a2;
 }
