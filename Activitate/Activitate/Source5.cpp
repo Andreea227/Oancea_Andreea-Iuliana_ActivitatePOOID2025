@@ -72,4 +72,10 @@ int main() {
     cout << "Rezolutie noua: " << f2.getRezolutie() << " MP" << endl;
     AparatFoto f3 = f2;
     cout << f3 << endl;
+    if (f2 != f1) {
+        cout << "Aparatele sunt diferite." << endl;
+    }
+    else {
+        cout << "Aparatele sunt identice." << endl;
+    }
 }
