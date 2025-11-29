@@ -78,4 +78,5 @@ int main() {
     AparatAudio a4 = a3 + 50;
     cout << "Dupa marirea puterii cu operator+ :" << endl;
     cout << a4 << endl;
+    return 0;
 }
