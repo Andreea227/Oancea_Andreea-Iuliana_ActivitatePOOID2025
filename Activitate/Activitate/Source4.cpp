@@ -67,4 +67,5 @@ public:
 int main() {
     int ani[] = { 2018, 2020, 2022 };
     AparatAudio a1;
+    AparatAudio a2("AudioTech", 150, 3, ani);
 }
