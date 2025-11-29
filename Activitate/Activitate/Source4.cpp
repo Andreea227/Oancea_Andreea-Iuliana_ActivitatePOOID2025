@@ -42,4 +42,8 @@ public:
             delete[] this->aniModele;
         }
     }
+    int getPutereW() const {
+        return this->putereW;
+    }
+
 };
