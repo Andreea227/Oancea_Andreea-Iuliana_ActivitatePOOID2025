@@ -5,5 +5,9 @@
 using namespace std;
 
 class AparatFoto {
-
+private:
+    string brand;
+    int rezolutieMP;
+    int nrModele;
+    int* aniLansare;
 };
