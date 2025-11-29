@@ -69,4 +69,7 @@ int main() {
     AparatFoto f2("Canon", 24, 3, ani);
     cout << f2 << endl;
     f2.setRezolutie(30);
+    cout << "Rezolutie noua: " << f2.getRezolutie() << " MP" << endl;
+    AparatFoto f3 = f2;
+
 }
