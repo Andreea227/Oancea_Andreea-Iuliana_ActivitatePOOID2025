@@ -17,4 +17,15 @@ public:
         this->nrModele = 0;
         this->aniModele = nullptr;
     }
+    AparatAudio(string marca, int putereW, int nrModele, int* aniModele) {
+        this->marca = marca;
+        this->putereW = putereW;
+        this->nrModele = nrModele;
+
+        this->aniModele = new int[nrModele];
+        for (int i = 0; i < nrModele; i++) {
+            this->aniModele[i] = aniModele[i];
+        }
+    }
+
 };
