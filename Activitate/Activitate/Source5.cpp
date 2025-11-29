@@ -68,4 +68,5 @@ int main() {
     AparatFoto f1;
     AparatFoto f2("Canon", 24, 3, ani);
     cout << f2 << endl;
+    f2.setRezolutie(30);
 }
