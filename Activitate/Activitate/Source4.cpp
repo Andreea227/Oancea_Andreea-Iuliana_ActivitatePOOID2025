@@ -75,4 +75,5 @@ int main() {
     AparatAudio a3 = a2;
     cout << "Obiect copiat:" << endl;
     cout << a3 << endl;
+    AparatAudio a4 = a3 + 50;
 }
