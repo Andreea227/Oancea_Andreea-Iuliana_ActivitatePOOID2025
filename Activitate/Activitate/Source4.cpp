@@ -37,4 +37,9 @@ public:
             this->aniModele[i] = a.aniModele[i];
         }
     }
+    ~AparatAudio() {
+        if (this->aniModele != nullptr) {
+            delete[] this->aniModele;
+        }
+    }
 };
