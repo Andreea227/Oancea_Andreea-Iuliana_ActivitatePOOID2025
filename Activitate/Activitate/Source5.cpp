@@ -17,4 +17,15 @@ public:
         this->nrModele = 0;
         this->aniLansare = nullptr;
     }
+    AparatFoto(string brand, int rezolutieMP, int nrModele, int* ani) {
+        this->brand = brand;
+        this->rezolutieMP = rezolutieMP;
+        this->nrModele = nrModele;
+
+        this->aniLansare = new int[nrModele];
+        for (int i = 0; i < nrModele; i++) {
+            this->aniLansare[i] = ani[i];
+        }
+    }
+
 };
