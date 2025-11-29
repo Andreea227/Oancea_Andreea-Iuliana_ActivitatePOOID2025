@@ -44,4 +44,7 @@ public:
     int getRezolutie() const {
         return this->rezolutieMP;
     }
+    void setRezolutie(int rez) {
+        this->rezolutieMP = rez;
+    }
 };
