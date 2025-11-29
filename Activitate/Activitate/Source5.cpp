@@ -27,5 +27,14 @@ public:
             this->aniLansare[i] = ani[i];
         }
     }
+    AparatFoto(const AparatFoto& af) {
+        this->brand = af.brand;
+        this->rezolutieMP = af.rezolutieMP;
+        this->nrModele = af.nrModele;
 
+        this->aniLansare = new int[af.nrModele];
+        for (int i = 0; i < af.nrModele; i++) {
+            this->aniLansare[i] = af.aniLansare[i];
+        }
+    }
 };
