@@ -37,4 +37,8 @@ public:
             this->aniLansare[i] = af.aniLansare[i];
         }
     }
+    ~AparatFoto() {
+        if (this->aniLansare != nullptr)
+            delete[] this->aniLansare;
+    }
 };
