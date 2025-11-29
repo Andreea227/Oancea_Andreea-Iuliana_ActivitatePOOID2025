@@ -47,4 +47,15 @@ public:
     void setRezolutie(int rez) {
         this->rezolutieMP = rez;
     }
+    friend ostream& operator<<(ostream& out, const AparatFoto& a) {
+        out << "Brand: " << a.brand << endl;
+        out << "Rezolutie: " << a.rezolutieMP << " MP" << endl;
+        out << "Numar modele: " << a.nrModele << endl;
+
+        for (int i = 0; i < a.nrModele; i++) {
+            out << "  Model " << i + 1 << " lansat in " << a.aniLansare[i] << endl;
+        }
+
+        return out;
+    }
 };
