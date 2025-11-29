@@ -66,5 +66,5 @@ public:
 };
 int main() {
     int ani[] = { 2018, 2020, 2022 };
-
+    AparatAudio a1;
 }
