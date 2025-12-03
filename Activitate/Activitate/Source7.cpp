@@ -58,4 +58,5 @@ int main() {
     int comp[] = { 1, 2, 3, 4 };
     Instalatie i1;
     Instalatie i2("Electrica", 4, 100, comp);
+    cout << i2 << endl;
 }
