@@ -50,4 +50,7 @@ public:
             out << "  Nivel cartus " << j + 1 << ": " << i.nivelCartuse[j] << endl;
         return out;
     }
+    bool operator!=(const Imprimanta& i) const {
+        return this->vitezaPagini != i.vitezaPagini;
+    }
 };
