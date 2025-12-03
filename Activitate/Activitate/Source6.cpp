@@ -39,5 +39,7 @@ public:
     int getPutere() const { 
         return putereW; }
 
+    void setPutere(int w) {
+        putereW = w; }
 
 };
