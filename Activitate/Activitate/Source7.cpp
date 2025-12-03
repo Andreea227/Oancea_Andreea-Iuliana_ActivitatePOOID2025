@@ -56,4 +56,5 @@ public:
 };
 int main() {
     int comp[] = { 1, 2, 3, 4 };
+    Instalatie i1;
 }
