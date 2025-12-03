@@ -56,4 +56,6 @@ public:
 };
 int main() {
     int viteze[] = { 1, 2, 3 };
+    AparatAer a1;
+
 }
