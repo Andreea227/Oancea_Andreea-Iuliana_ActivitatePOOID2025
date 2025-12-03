@@ -9,5 +9,11 @@ private:
     int vitezaPagini;
     int nrCartuse;
     int* nivelCartuse;
-
+public:
+    Imprimanta() {
+        model = "";
+        vitezaPagini = 0;
+        nrCartuse = 0;
+        nivelCartuse = nullptr;
+    }
 };
