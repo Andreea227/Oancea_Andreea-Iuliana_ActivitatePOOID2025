@@ -63,4 +63,8 @@ int main() {
     cout << "Viteza noua: " << imp2.getViteza() << endl;
     Imprimanta imp3 = imp2;
     cout << imp3 << endl;
+    if (imp2 != imp1)
+        cout << "imp2 si imp1 au viteze diferite." << endl;
+    else
+        cout << "imp2 si imp1 au aceeasi viteza." << endl;
 }
