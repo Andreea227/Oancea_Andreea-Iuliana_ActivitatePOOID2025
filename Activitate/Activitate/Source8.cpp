@@ -62,4 +62,5 @@ int main() {
     imp2.setViteza(25);
     cout << "Viteza noua: " << imp2.getViteza() << endl;
     Imprimanta imp3 = imp2;
+    cout << imp3 << endl;
 }
