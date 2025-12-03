@@ -59,4 +59,5 @@ int main() {
     AparatAer a1;
     AparatAer a2("VentilatorX", 120, 3, viteze);
     cout << a2 << endl;
+    a2.setPutere(150);
 }
