@@ -58,4 +58,5 @@ int main() {
     int nivel[] = { 80, 60, 90 };
     Imprimanta imp1;
     Imprimanta imp2("HP", 20, 3, nivel);
+    cout << imp2 << endl;
 }
