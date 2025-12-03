@@ -50,4 +50,7 @@ public:
             out << "  Componenta " << j + 1 << ": " << i.componente[j] << endl;
         return out;
     }
+    bool operator==(const Instalatie& i) const {
+        return this->capacitate == i.capacitate;
+    }
 };
