@@ -16,5 +16,12 @@ public:
         this->nrViteze = 0;
         this->viteze = nullptr;
     }
-
+    AparatAer(string model, int putereW, int nrViteze, int* viteze) {
+        this->model = model;
+        this->putereW = putereW;
+        this->nrViteze = nrViteze;
+        this->viteze = new int[nrViteze];
+        for (int i = 0; i < nrViteze; i++)
+            this->viteze[i] = viteze[i];
+    }
 };
