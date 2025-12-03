@@ -42,4 +42,13 @@ public:
     void setPutere(int w) {
         putereW = w; }
 
+    friend ostream& operator<<(ostream& out, const AparatAer& a) {
+        out << "Model: " << a.model << endl;
+        out << "Putere: " << a.putereW << " W" << endl;
+        out << "Nr viteze: " << a.nrViteze << endl;
+        for (int i = 0; i < a.nrViteze; i++)
+            out << "  Viteza " << i + 1 << ": " << a.viteze[i] << endl;
+        return out;
+    }
+
 };
