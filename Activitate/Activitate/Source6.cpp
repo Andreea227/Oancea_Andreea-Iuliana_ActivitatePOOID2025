@@ -24,4 +24,12 @@ public:
         for (int i = 0; i < nrViteze; i++)
             this->viteze[i] = viteze[i];
     }
+    AparatAer(const AparatAer& a) {
+        this->model = a.model;
+        this->putereW = a.putereW;
+        this->nrViteze = a.nrViteze;
+        this->viteze = new int[a.nrViteze];
+        for (int i = 0; i < a.nrViteze; i++)
+            this->viteze[i] = a.viteze[i];
+    }
 };
