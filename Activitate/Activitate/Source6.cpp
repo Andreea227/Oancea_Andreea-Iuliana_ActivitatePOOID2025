@@ -9,5 +9,12 @@ private:
     int putereW;
     int nrViteze;
     int* viteze;
+public:
+    AparatAer() {
+        this->model = "";
+        this->putereW = 0;
+        this->nrViteze = 0;
+        this->viteze = nullptr;
+    }
 
 };
