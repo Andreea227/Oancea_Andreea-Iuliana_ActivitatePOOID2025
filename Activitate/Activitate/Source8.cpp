@@ -59,4 +59,5 @@ int main() {
     Imprimanta imp1;
     Imprimanta imp2("HP", 20, 3, nivel);
     cout << imp2 << endl;
+    imp2.setViteza(25);
 }
