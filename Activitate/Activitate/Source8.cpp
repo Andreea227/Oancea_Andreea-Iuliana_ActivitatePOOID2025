@@ -16,4 +16,13 @@ public:
         nrCartuse = 0;
         nivelCartuse = nullptr;
     }
+    Imprimanta(string model, int vitezaPagini, int nrCartuse, int* nivelCartuse) {
+        this->model = model;
+        this->vitezaPagini = vitezaPagini;
+        this->nrCartuse = nrCartuse;
+        this->nivelCartuse = new int[nrCartuse];
+        for (int i = 0; i < nrCartuse; i++)
+            this->nivelCartuse[i] = nivelCartuse[i];
+    }
+
 };
