@@ -62,4 +62,5 @@ int main() {
     i2.setCapacitate(120);
     cout << "Capacitate noua: " << i2.getCapacitate() << endl;
     Instalatie i3 = i2;
+    cout << i3 << endl;
 }
