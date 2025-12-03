@@ -39,4 +39,7 @@ public:
     int getViteza() const {
         return vitezaPagini; }
 
+    void setViteza(int v) {
+        vitezaPagini = v; }
+
 };
