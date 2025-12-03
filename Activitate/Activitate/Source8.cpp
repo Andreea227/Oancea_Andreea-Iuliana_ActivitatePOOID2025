@@ -24,5 +24,13 @@ public:
         for (int i = 0; i < nrCartuse; i++)
             this->nivelCartuse[i] = nivelCartuse[i];
     }
+    Imprimanta(const Imprimanta& i) {
+        model = i.model;
+        vitezaPagini = i.vitezaPagini;
+        nrCartuse = i.nrCartuse;
+        nivelCartuse = new int[i.nrCartuse];
+        for (int j = 0; j < i.nrCartuse; j++)
+            nivelCartuse[j] = i.nivelCartuse[j];
+    }
 
 };
