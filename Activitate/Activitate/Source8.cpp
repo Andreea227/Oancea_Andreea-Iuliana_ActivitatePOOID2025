@@ -4,5 +4,10 @@
 
 using namespace std;
 class Imprimanta {
+private:
+    string model;
+    int vitezaPagini;
+    int nrCartuse;
+    int* nivelCartuse;
 
 };
