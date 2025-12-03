@@ -59,4 +59,5 @@ int main() {
     Instalatie i1;
     Instalatie i2("Electrica", 4, 100, comp);
     cout << i2 << endl;
+    i2.setCapacitate(120);
 }
