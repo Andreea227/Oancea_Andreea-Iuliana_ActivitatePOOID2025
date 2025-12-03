@@ -50,5 +50,7 @@ public:
             out << "  Viteza " << i + 1 << ": " << a.viteze[i] << endl;
         return out;
     }
-
+    bool operator==(const AparatAer& a) const {
+        return this->putereW == a.putereW;
+    }
 };
