@@ -60,4 +60,6 @@ int main() {
     AparatAer a2("VentilatorX", 120, 3, viteze);
     cout << a2 << endl;
     a2.setPutere(150);
+    cout << "Putere noua: " << a2.getPutere() << " W" << endl;
+    AparatAer a3 = a2;
 }
