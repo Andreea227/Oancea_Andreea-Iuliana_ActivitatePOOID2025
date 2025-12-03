@@ -55,5 +55,5 @@ public:
     }
 };
 int main() {
-
+    int nivel[] = { 80, 60, 90 };
 }
