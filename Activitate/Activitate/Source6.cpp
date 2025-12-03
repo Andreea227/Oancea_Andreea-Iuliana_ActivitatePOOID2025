@@ -36,5 +36,8 @@ public:
         if (viteze != nullptr)
             delete[] viteze;
     }
+    int getPutere() const { 
+        return putereW; }
+
 
 };
