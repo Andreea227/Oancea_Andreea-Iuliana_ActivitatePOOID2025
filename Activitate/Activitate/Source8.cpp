@@ -67,4 +67,5 @@ int main() {
         cout << "imp2 si imp1 au viteze diferite." << endl;
     else
         cout << "imp2 si imp1 au aceeasi viteza." << endl;
+    return 0;
 }
