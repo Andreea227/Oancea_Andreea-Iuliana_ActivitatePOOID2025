@@ -54,3 +54,6 @@ public:
         return this->vitezaPagini != i.vitezaPagini;
     }
 };
+int main() {
+
+}
