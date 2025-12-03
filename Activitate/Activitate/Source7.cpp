@@ -39,4 +39,6 @@ public:
     int getCapacitate() const { 
         return capacitate; }
 
+    void setCapacitate(int c) { 
+        capacitate = c; }
 };
