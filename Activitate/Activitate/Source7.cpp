@@ -63,4 +63,8 @@ int main() {
     cout << "Capacitate noua: " << i2.getCapacitate() << endl;
     Instalatie i3 = i2;
     cout << i3 << endl;
+    if (i2 == i3)
+        cout << "i2 si i3 au aceeasi capacitate." << endl;
+    else
+        cout << "i2 si i3 au capacitate diferita." << endl;
 }
