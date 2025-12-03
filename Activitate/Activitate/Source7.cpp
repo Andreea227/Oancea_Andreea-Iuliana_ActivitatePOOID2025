@@ -60,4 +60,6 @@ int main() {
     Instalatie i2("Electrica", 4, 100, comp);
     cout << i2 << endl;
     i2.setCapacitate(120);
+    cout << "Capacitate noua: " << i2.getCapacitate() << endl;
+    Instalatie i3 = i2;
 }
