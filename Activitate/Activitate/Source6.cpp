@@ -63,4 +63,8 @@ int main() {
     cout << "Putere noua: " << a2.getPutere() << " W" << endl;
     AparatAer a3 = a2;
     cout << a3 << endl;
+    if (a2 == a3)
+        cout << "a2 si a3 au aceeasi putere." << endl;
+    else
+        cout << "a2 si a3 au putere diferita." << endl;
 }
