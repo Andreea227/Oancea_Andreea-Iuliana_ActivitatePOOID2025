@@ -32,5 +32,8 @@ public:
         for (int j = 0; j < i.nrCartuse; j++)
             nivelCartuse[j] = i.nivelCartuse[j];
     }
-
+    ~Imprimanta() {
+        if (nivelCartuse != nullptr)
+            delete[] nivelCartuse;
+    }
 };
