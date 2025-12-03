@@ -36,4 +36,7 @@ public:
         if (componente != nullptr)
             delete[] componente;
     }
+    int getCapacitate() const { 
+        return capacitate; }
+
 };
