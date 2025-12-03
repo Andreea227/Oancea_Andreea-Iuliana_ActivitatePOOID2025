@@ -32,4 +32,8 @@ public:
         for (int j = 0; j < i.nrComponente; j++)
             componente[j] = i.componente[j];
     }
+    ~Instalatie() {
+        if (componente != nullptr)
+            delete[] componente;
+    }
 };
