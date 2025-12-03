@@ -54,3 +54,6 @@ public:
         return this->capacitate == i.capacitate;
     }
 };
+int main() {
+
+}
