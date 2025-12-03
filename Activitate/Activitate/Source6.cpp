@@ -57,5 +57,5 @@ public:
 int main() {
     int viteze[] = { 1, 2, 3 };
     AparatAer a1;
-
+    AparatAer a2("VentilatorX", 120, 3, viteze);
 }
