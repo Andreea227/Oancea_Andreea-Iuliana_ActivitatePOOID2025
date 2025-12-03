@@ -4,5 +4,10 @@
 
 using namespace std;
 class AparatAer {
+private:
+    string model;
+    int putereW;
+    int nrViteze;
+    int* viteze;
 
 };
