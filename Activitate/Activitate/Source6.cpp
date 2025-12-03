@@ -54,3 +54,6 @@ public:
         return this->putereW == a.putereW;
     }
 };
+int main() {
+
+}
