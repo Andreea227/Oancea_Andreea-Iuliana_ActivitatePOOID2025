@@ -24,4 +24,12 @@ public:
         for (int i = 0; i < nrComponente; i++)
             this->componente[i] = comp[i];
     }
+    Instalatie(const Instalatie& i) {
+        tip = i.tip;
+        nrComponente = i.nrComponente;
+        capacitate = i.capacitate;
+        componente = new int[i.nrComponente];
+        for (int j = 0; j < i.nrComponente; j++)
+            componente[j] = i.componente[j];
+    }
 };
