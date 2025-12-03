@@ -32,4 +32,9 @@ public:
         for (int i = 0; i < a.nrViteze; i++)
             this->viteze[i] = a.viteze[i];
     }
+    ~AparatAer() {
+        if (viteze != nullptr)
+            delete[] viteze;
+    }
+
 };
