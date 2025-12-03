@@ -42,4 +42,12 @@ public:
     void setViteza(int v) {
         vitezaPagini = v; }
 
+    friend ostream& operator<<(ostream& out, const Imprimanta& i) {
+        out << "Model: " << i.model << endl;
+        out << "Viteza pagini: " << i.vitezaPagini << endl;
+        out << "Nr cartuse: " << i.nrCartuse << endl;
+        for (int j = 0; j < i.nrCartuse; j++)
+            out << "  Nivel cartus " << j + 1 << ": " << i.nivelCartuse[j] << endl;
+        return out;
+    }
 };
