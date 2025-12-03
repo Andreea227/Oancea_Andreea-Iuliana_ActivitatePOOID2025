@@ -36,4 +36,7 @@ public:
         if (nivelCartuse != nullptr)
             delete[] nivelCartuse;
     }
+    int getViteza() const {
+        return vitezaPagini; }
+
 };
