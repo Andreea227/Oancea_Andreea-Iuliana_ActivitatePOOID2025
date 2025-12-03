@@ -16,5 +16,12 @@ public:
         capacitate = 0;
         componente = nullptr;
     }
-
+    Instalatie(string tip, int nrComponente, int capacitate, int* comp) {
+        this->tip = tip;
+        this->nrComponente = nrComponente;
+        this->capacitate = capacitate;
+        this->componente = new int[nrComponente];
+        for (int i = 0; i < nrComponente; i++)
+            this->componente[i] = comp[i];
+    }
 };
