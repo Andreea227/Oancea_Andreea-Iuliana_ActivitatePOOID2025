@@ -67,4 +67,5 @@ int main() {
         cout << "a2 si a3 au aceeasi putere." << endl;
     else
         cout << "a2 si a3 au putere diferita." << endl;
+    return 0;
 }
