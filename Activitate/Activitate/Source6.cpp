@@ -62,4 +62,5 @@ int main() {
     a2.setPutere(150);
     cout << "Putere noua: " << a2.getPutere() << " W" << endl;
     AparatAer a3 = a2;
+    cout << a3 << endl;
 }
