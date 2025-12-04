@@ -17,5 +17,13 @@ public:
         this->componente = 0;
         this->componente = nullptr;
     }
-
+    InstalatieIndustriala(string tip, int capacitate, int nrComponente, int* componente) {
+        this->tip = tip;
+        this->capacitate = capacitate;
+        this->nrComponente = nrComponente;
+        this->componente = new int[nrComponente];
+        for (int i = 0; i < nrComponente; i++) {
+            this->componente[i] = componente[i];
+        }
+    }
 };
