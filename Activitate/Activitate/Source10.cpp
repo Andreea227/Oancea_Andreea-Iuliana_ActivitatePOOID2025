@@ -40,5 +40,7 @@ public:
             delete[] this->componente;
         }
     }
-
+    int getCapacitate() const {
+        return this->capacitate;
+    }
 };
