@@ -10,5 +10,12 @@ private:
     int capacitate;
     int nrComponente;
     int* componente;
+public:
+    InstalatieIndustriala() {
+        this->tip = "";
+        this->capacitate = 0;
+        this->componente = 0;
+        this->componente = nullptr;
+    }
 
 };
