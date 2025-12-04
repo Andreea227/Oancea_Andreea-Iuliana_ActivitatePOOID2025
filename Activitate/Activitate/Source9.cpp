@@ -56,6 +56,6 @@ public:
     }
 };
 int main() {
-
+    int dia[] = { 20, 25, 30 };
 }
 
