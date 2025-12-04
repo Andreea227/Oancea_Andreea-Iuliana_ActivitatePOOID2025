@@ -66,4 +66,5 @@ int main() {
     InstalatieIndustriala i2("Presiune Mare", 200, 4, comp);
     cout << "Instalatie initiala:" << endl;
     cout << i2 << endl;
+    i2.setCapacitate(250);
 }
