@@ -65,5 +65,7 @@ int main() {
     Oala o3 = o2;
     cout << o3 << endl;
     o2 += 2;
+    cout << "Dupa operator +=:" << endl;
+    cout << o2 << endl;
 }
 
