@@ -62,4 +62,5 @@ public:
 };
 int main() {
     int comp[] = { 10, 20, 30, 40 };
+    InstalatieIndustriala i1;
 }
