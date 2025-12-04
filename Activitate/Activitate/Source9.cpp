@@ -9,5 +9,11 @@ private:
     int capacitate; 
     int nrManere;
     int* diametre; 
-
+public:
+    Oala() {
+        material = "";
+        capacitate = 0;
+        nrManere = 0;
+        diametre = nullptr;
+    }
 };
