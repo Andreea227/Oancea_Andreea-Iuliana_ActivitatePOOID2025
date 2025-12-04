@@ -61,5 +61,5 @@ public:
     }
 };
 int main() {
-
+    int comp[] = { 10, 20, 30, 40 };
 }
