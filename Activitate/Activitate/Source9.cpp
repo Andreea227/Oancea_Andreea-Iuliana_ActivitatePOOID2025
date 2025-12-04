@@ -61,5 +61,7 @@ int main() {
     Oala o2("Inox", 5, 3, dia);
     cout << o2 << endl;
     o2.setCapacitate(6);
+    cout << "Capacitate noua: " << o2.getCapacitate() << " litri" << endl;
+    Oala o3 = o2;
 }
 
