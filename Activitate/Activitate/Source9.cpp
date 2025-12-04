@@ -60,6 +60,6 @@ int main() {
     Oala o1;
     Oala o2("Inox", 5, 3, dia);
     cout << o2 << endl;
-
+    o2.setCapacitate(6);
 }
 
