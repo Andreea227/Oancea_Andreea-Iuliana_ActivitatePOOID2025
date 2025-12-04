@@ -50,4 +50,8 @@ public:
             out << "  Diametru " << i + 1 << ": " << o.diametre[i] << endl;
         return out;
     }
+    Oala operator+=(int x) {
+        this->capacitate += x;
+        return *this;
+    }
 };
