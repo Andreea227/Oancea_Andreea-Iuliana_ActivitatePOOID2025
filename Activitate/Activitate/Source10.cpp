@@ -26,4 +26,13 @@ public:
             this->componente[i] = componente[i];
         }
     }
+    InstalatieIndustriala(const InstalatieIndustriala& i) {
+        this->tip = i.tip;
+        this->capacitate = i.capacitate;
+        this->nrComponente = i.nrComponente;
+        this->componente = new int[i.nrComponente];
+        for (int j = 0; j < i.nrComponente; j++) {
+            this->componente[j] = i.componente[j];
+        }
+    }
 };
