@@ -71,4 +71,8 @@ int main() {
     InstalatieIndustriala i3 = i2;
     cout << "Instalatie copiata:" << endl;
     cout << i3 << endl;
+    if (i2 == i3)
+        cout << "i2 si i3 au aceeasi capacitate si acelasi numar de componente." << endl;
+    else
+        cout << "i2 si i3 sunt diferite." << endl;
 }
