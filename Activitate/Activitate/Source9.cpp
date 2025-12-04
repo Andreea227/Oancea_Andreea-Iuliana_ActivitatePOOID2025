@@ -32,4 +32,8 @@ public:
         for (int i = 0; i < o.nrManere; i++)
             diametre[i] = o.diametre[i];
     }
+    ~Oala() {
+        if (diametre != nullptr)
+            delete[] diametre;
+    }
 };
