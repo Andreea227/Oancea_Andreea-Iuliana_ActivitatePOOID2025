@@ -63,5 +63,6 @@ int main() {
     o2.setCapacitate(6);
     cout << "Capacitate noua: " << o2.getCapacitate() << " litri" << endl;
     Oala o3 = o2;
+    cout << o3 << endl;
 }
 
