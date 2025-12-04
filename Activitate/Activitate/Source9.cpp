@@ -16,4 +16,12 @@ public:
         nrManere = 0;
         diametre = nullptr;
     }
+    Oala(string material, int capacitate, int nrManere, int* diametre) {
+        this->material = material;
+        this->capacitate = capacitate;
+        this->nrManere = nrManere;
+        this->diametre = new int[nrManere];
+        for (int i = 0; i < nrManere; i++)
+            this->diametre[i] = diametre[i];
+    }
 };
