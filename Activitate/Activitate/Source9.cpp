@@ -36,4 +36,6 @@ public:
         if (diametre != nullptr)
             delete[] diametre;
     }
+    int getCapacitate() const { 
+        return capacitate; }
 };
