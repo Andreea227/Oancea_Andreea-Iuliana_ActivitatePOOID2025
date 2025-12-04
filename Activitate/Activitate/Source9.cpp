@@ -41,4 +41,13 @@ public:
 
     void setCapacitate(int c) {
         capacitate = c; }
+
+    friend ostream& operator<<(ostream& out, const Oala& o) {
+        out << "Material: " << o.material << endl;
+        out << "Capacitate: " << o.capacitate << " litri" << endl;
+        out << "Nr manere: " << o.nrManere << endl;
+        for (int i = 0; i < o.nrManere; i++)
+            out << "  Diametru " << i + 1 << ": " << o.diametre[i] << endl;
+        return out;
+    }
 };
