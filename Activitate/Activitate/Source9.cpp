@@ -24,4 +24,12 @@ public:
         for (int i = 0; i < nrManere; i++)
             this->diametre[i] = diametre[i];
     }
+    Oala(const Oala& o) {
+        material = o.material;
+        capacitate = o.capacitate;
+        nrManere = o.nrManere;
+        diametre = new int[o.nrManere];
+        for (int i = 0; i < o.nrManere; i++)
+            diametre[i] = o.diametre[i];
+    }
 };
