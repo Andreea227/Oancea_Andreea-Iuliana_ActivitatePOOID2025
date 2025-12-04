@@ -46,4 +46,8 @@ public:
     void setCapacitate(int capacitateNoua) {
         this->capacitate = capacitateNoua;
     }
+    bool operator==(const InstalatieIndustriala& i) const {
+        return this->capacitate == i.capacitate &&
+            this->nrComponente == i.nrComponente;
+    }
 };
