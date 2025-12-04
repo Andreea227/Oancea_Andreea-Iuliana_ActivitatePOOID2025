@@ -63,4 +63,5 @@ public:
 int main() {
     int comp[] = { 10, 20, 30, 40 };
     InstalatieIndustriala i1;
+    InstalatieIndustriala i2("Presiune Mare", 200, 4, comp);
 }
