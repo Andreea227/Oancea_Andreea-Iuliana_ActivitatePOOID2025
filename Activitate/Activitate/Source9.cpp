@@ -4,5 +4,10 @@
 
 using namespace std;
 class Oala {
+private:
+    string material;
+    int capacitate; 
+    int nrManere;
+    int* diametre; 
 
 };
