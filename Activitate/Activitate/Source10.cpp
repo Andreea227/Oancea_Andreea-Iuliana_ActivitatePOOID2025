@@ -43,4 +43,7 @@ public:
     int getCapacitate() const {
         return this->capacitate;
     }
+    void setCapacitate(int capacitateNoua) {
+        this->capacitate = capacitateNoua;
+    }
 };
