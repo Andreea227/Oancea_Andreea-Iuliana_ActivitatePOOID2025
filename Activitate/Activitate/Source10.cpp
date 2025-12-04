@@ -75,4 +75,5 @@ int main() {
         cout << "i2 si i3 au aceeasi capacitate si acelasi numar de componente." << endl;
     else
         cout << "i2 si i3 sunt diferite." << endl;
+    return 0;
 }
