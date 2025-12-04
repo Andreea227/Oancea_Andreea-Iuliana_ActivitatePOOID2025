@@ -5,5 +5,10 @@
 using namespace std;
 
 class InstalatieIndustriala {
+private:
+    string tip;
+    int capacitate;
+    int nrComponente;
+    int* componente;
 
 };
