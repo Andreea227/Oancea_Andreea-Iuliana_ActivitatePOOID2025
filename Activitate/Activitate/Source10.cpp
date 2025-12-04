@@ -35,4 +35,10 @@ public:
             this->componente[j] = i.componente[j];
         }
     }
+    ~InstalatieIndustriala() {
+        if (this->componente != nullptr) {
+            delete[] this->componente;
+        }
+    }
+
 };
