@@ -58,5 +58,7 @@ public:
 int main() {
     int dia[] = { 20, 25, 30 };
     Oala o1;
+    Oala o2("Inox", 5, 3, dia);
+
 }
 
