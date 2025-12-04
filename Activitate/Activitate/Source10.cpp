@@ -50,4 +50,13 @@ public:
         return this->capacitate == i.capacitate &&
             this->nrComponente == i.nrComponente;
     }
+    friend ostream& operator<<(ostream& out, const InstalatieIndustriala& i) {
+        out << "Tip: " << i.tip << endl;
+        out << "Capacitate: " << i.capacitate << endl;
+        out << "Numar componente: " << i.nrComponente << endl;
+        for (int j = 0; j < i.nrComponente; j++) {
+            out << "  Componenta " << j + 1 << ": " << i.componente[j] << endl;
+        }
+        return out;
+    }
 };
