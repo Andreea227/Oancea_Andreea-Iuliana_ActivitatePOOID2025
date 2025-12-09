@@ -79,4 +79,5 @@ int main() {
     else {
         cout << "auto2 si auto3 sunt diferite." << endl;
     }
+    return 0;
 }
