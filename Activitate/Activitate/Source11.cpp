@@ -296,4 +296,5 @@ int main() {
     m2 = m1;
     Masina m3 = m1 + 2;
     cout << (m1 < m3 ? "m1 mai veche\n" : "m3 mai veche\n");
+    cout << "Pret m1[1] = " << m1[1] << endl;
 }
