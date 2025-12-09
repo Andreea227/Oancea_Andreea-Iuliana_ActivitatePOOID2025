@@ -131,5 +131,16 @@ public:
         revizii = nullptr;
         totalMotoare++;
     }
+    Motor(string t, float c, int nr, float* r) : nrCilindri(4) {
+        tip = t;
+        capacitate = c;
+        nrRevizii = nr;
+
+        revizii = new float[nr];
+        for (int i = 0; i < nr; i++)
+            revizii[i] = r[i];
+
+        totalMotoare++;
+    }
 
 };
