@@ -272,3 +272,4 @@ public:
         return 0;
     }
 };
+int ServiceAuto::totalServiceuri = 0;
