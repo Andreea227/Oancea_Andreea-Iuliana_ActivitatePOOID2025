@@ -294,4 +294,5 @@ int main() {
     Masina m1("BMW", 2018, 3, preturi);
     Masina m2;
     m2 = m1;
+    Masina m3 = m1 + 2;
 }
