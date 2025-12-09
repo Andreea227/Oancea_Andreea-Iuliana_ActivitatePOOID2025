@@ -174,4 +174,9 @@ public:
 
         return *this;
     }
+    Motor operator+(float x) const {
+        Motor temp(*this);
+        temp.capacitate += x;
+        return temp;
+    }
 };
