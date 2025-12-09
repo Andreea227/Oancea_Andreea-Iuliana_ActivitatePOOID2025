@@ -187,5 +187,5 @@ public:
             return revizii[index];
         return 0;
     }
-
+    friend float sumaRevizii(const Motor&);
 };
