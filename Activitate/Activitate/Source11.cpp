@@ -310,4 +310,5 @@ int main() {
     s2 = s1;
     ServiceAuto s3 = s1 + 2;
     cout << (s1 < s3) << endl;
+    cout << s1[1] << endl;
 }
