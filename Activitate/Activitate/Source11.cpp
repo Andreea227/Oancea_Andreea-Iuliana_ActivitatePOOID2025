@@ -182,4 +182,10 @@ public:
     bool operator<(const Motor& m) const {
         return this->capacitate < m.capacitate;
     }
+    float operator[](int index) const {
+        if (index >= 0 && index < nrRevizii)
+            return revizii[index];
+        return 0;
+    }
+
 };
