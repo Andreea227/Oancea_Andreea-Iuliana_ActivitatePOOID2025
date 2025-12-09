@@ -307,5 +307,5 @@ int main() {
     cout << "Suma revizii mo1 = " << sumaRevizii(mo1) << endl;
     ServiceAuto s1("AutoFix", 5, 3, salarii);
     ServiceAuto s2;
-
+    s2 = s1;
 }
