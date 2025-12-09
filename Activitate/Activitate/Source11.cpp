@@ -73,4 +73,22 @@ public:
     static void afisareTotal() {
         cout << "Total masini create: " << totalMasini << endl;
     }
+    Masina& operator=(const Masina& m) {
+        if (this == &m) return *this;
+
+        marca = m.marca;
+        anFabricatie = m.anFabricatie;
+
+        delete[] preturi;
+
+        nrPreturi = m.nrPreturi;
+        if (m.preturi != nullptr) {
+            preturi = new float[nrPreturi];
+            for (int i = 0; i < nrPreturi; i++)
+                preturi[i] = m.preturi[i];
+        }
+        else preturi = nullptr;
+
+        return *this;
+    }
 };
