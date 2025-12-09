@@ -73,4 +73,10 @@ int main() {
     cout << "Ani noi: " << auto2.getAni() << endl;
     Auto auto3 = auto2;
     cout << auto3 << endl;
+    if (auto2 == auto3) {
+        cout << "auto2 si auto3 sunt identice dupa marca si model." << endl;
+    }
+    else {
+        cout << "auto2 si auto3 sunt diferite." << endl;
+    }
 }
