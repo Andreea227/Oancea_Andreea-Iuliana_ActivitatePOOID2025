@@ -179,4 +179,7 @@ public:
         temp.capacitate += x;
         return temp;
     }
+    bool operator<(const Motor& m) const {
+        return this->capacitate < m.capacitate;
+    }
 };
