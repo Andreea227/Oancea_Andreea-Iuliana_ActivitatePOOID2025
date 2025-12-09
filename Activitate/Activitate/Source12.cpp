@@ -51,4 +51,15 @@ public:
     bool operator==(const Auto& a) const {
         return (this->marca == a.marca && this->model == a.model);
     }
+    friend ostream& operator<<(ostream& out, const Auto& a) {
+        out << "Marca: " << a.marca << endl;
+        out << "Model: " << a.model << endl;
+        out << "Ani: " << a.ani << endl;
+
+        for (int i = 0; i < a.ani; i++) {
+            out << "  Consum anul " << i + 1 << ": " << a.consumKm[i] << " l/100km" << endl;
+        }
+
+        return out;
+    }
 };
