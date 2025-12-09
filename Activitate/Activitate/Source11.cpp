@@ -300,5 +300,5 @@ int main() {
     cout << "Pret mediu m1 = " << pretMediuMasina(m1) << endl;
     Motor mo1("Diesel", 2.0f, 2, rev);
     Motor mo2;
-
+    mo2 = mo1;
 }
