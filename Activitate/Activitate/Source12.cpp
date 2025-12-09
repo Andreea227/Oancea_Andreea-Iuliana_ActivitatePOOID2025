@@ -69,4 +69,6 @@ int main() {
     Auto auto1;
     Auto auto2("Dacia", "Logan", 3, consum);
     cout << auto2 << endl;
+    auto2.setAni(4);
+    cout << "Ani noi: " << auto2.getAni() << endl;
 }
