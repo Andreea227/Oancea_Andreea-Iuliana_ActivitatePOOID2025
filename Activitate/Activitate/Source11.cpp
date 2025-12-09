@@ -263,5 +263,7 @@ public:
         temp.nrMecanici += x;
         return temp;
     }
-
+    bool operator<(const ServiceAuto& s) const {
+        return this->nrMecanici < s.nrMecanici;
+    }
 };
