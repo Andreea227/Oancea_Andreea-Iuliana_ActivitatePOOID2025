@@ -5,5 +5,9 @@
 using namespace std;
 
 class Auto {
-
+private:
+    string marca;
+    string model;
+    int ani;
+    float* consumKm;
 };
