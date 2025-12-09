@@ -48,5 +48,7 @@ public:
     void setAni(int aniNoi) {
         this->ani = aniNoi;
     }
-
+    bool operator==(const Auto& a) const {
+        return (this->marca == a.marca && this->model == a.model);
+    }
 };

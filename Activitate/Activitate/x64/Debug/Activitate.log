@@ -1,3 +1,14 @@
 ﻿  Source1.cpp
-Source1.obj : error LNK2005: main already defined in Source.obj
-D:\POO2025\Oancea_Andreea-Iuliana_ActivitatePOOID2025\Activitate\x64\Debug\Activitate.exe : fatal error LNK1169: one or more multiply defined symbols found
+  Source10.cpp
+  Source11.cpp
+  Source12.cpp
+  Source2.cpp
+  Source3.cpp
+  Source4.cpp
+  Source5.cpp
+  Source6.cpp
+  Source7.cpp
+  Source8.cpp
+  Source9.cpp
+  Generating Code...
+D:\POO2025\Oancea_Andreea-Iuliana_ActivitatePOOID2025\Activitate\Activitate\Source1.cpp(29,1): error C4716: 'operator<<': must return a value
