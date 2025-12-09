@@ -242,4 +242,21 @@ public:
     static void total() {
         cout << "Total service-uri create: " << totalServiceuri << endl;
     }
+    ServiceAuto& operator=(const ServiceAuto& s) {
+        if (this == &s) return *this;
+
+        nume = s.nume;
+        nrMecanici = s.nrMecanici;
+
+        delete[] salarii;
+
+        nrSalarii = s.nrSalarii;
+
+        salarii = new int[nrSalarii];
+        for (int i = 0; i < nrSalarii; i++)
+            salarii[i] = s.salarii[i];
+
+        return *this;
+    }
+
 };
