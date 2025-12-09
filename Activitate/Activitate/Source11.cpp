@@ -142,5 +142,16 @@ public:
 
         totalMotoare++;
     }
+    Motor(const Motor& m) : nrCilindri(4) {
+        tip = m.tip;
+        capacitate = m.capacitate;
+        nrRevizii = m.nrRevizii;
+
+        revizii = new float[nrRevizii];
+        for (int i = 0; i < nrRevizii; i++)
+            revizii[i] = m.revizii[i];
+
+        totalMotoare++;
+    }
 
 };
