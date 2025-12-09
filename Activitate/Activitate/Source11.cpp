@@ -20,4 +20,7 @@ public:
         return nrRoti; }
     int getNrPreturi() const { 
         return nrPreturi; }
+    float getPret(int i) const {
+        return (i >= 0 && i < nrPreturi) ? preturi[i] : 0;
+    }
 };
