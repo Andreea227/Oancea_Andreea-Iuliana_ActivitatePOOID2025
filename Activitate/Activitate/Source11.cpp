@@ -293,4 +293,5 @@ int main() {
     int salarii[] = { 3000, 3500, 4000 };
     Masina m1("BMW", 2018, 3, preturi);
     Masina m2;
+    m2 = m1;
 }
