@@ -304,4 +304,5 @@ int main() {
     Motor mo3 = mo1 + 0.5f;
     cout << (mo1 < mo3) << endl;
     cout << mo1[0] << endl;
+    cout << "Suma revizii mo1 = " << sumaRevizii(mo1) << endl;
 }
