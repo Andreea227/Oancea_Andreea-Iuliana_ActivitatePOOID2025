@@ -288,5 +288,7 @@ float sumaRevizii(const Motor& m) {
 }
 
 int main() {
-
+    float preturi[] = { 20000, 25000, 30000 };
+    float rev[] = { 500, 700 };
+    int salarii[] = { 3000, 3500, 4000 };
 }
