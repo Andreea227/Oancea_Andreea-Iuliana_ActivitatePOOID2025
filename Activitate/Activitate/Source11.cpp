@@ -273,3 +273,10 @@ public:
     }
 };
 int ServiceAuto::totalServiceuri = 0;
+float pretMediuMasina(const Masina& m) {
+    if (m.getNrPreturi() == 0) return 0;
+    float s = 0;
+    for (int i = 0; i < m.getNrPreturi(); i++)
+        s += m.getPret(i);
+    return s / m.getNrPreturi();
+}
