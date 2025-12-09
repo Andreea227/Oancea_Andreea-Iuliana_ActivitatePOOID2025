@@ -286,3 +286,7 @@ float sumaRevizii(const Motor& m) {
         s += m.revizii[i];
     return s;
 }
+
+int main() {
+
+}
