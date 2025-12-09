@@ -258,5 +258,10 @@ public:
 
         return *this;
     }
+    ServiceAuto operator+(int x) const {
+        ServiceAuto temp(*this);
+        temp.nrMecanici += x;
+        return temp;
+    }
 
 };
