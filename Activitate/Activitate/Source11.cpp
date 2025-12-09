@@ -295,4 +295,5 @@ int main() {
     Masina m2;
     m2 = m1;
     Masina m3 = m1 + 2;
+    cout << (m1 < m3 ? "m1 mai veche\n" : "m3 mai veche\n");
 }
