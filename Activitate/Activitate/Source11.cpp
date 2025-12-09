@@ -266,4 +266,9 @@ public:
     bool operator<(const ServiceAuto& s) const {
         return this->nrMecanici < s.nrMecanici;
     }
+    int operator[](int index) const {
+        if (index >= 0 && index < nrSalarii)
+            return salarii[index];
+        return 0;
+    }
 };
