@@ -309,4 +309,5 @@ int main() {
     ServiceAuto s2;
     s2 = s1;
     ServiceAuto s3 = s1 + 2;
+    cout << (s1 < s3) << endl;
 }
