@@ -314,4 +314,5 @@ int main() {
     ServiceAuto::total();
     Masina::afisareTotal();
     Motor::total();
+    return 0;
 }
