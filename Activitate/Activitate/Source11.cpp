@@ -159,4 +159,19 @@ public:
     static void total() {
         cout << "Total motoare create: " << totalMotoare << endl;
     }
+    Motor& operator=(const Motor& m) {
+        if (this == &m) return *this;
+
+        tip = m.tip;
+        capacitate = m.capacitate;
+
+        delete[] revizii;
+
+        nrRevizii = m.nrRevizii;
+        revizii = new float[nrRevizii];
+        for (int i = 0; i < nrRevizii; i++)
+            revizii[i] = m.revizii[i];
+
+        return *this;
+    }
 };
