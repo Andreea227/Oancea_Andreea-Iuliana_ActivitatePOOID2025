@@ -301,4 +301,5 @@ int main() {
     Motor mo1("Diesel", 2.0f, 2, rev);
     Motor mo2;
     mo2 = mo1;
+    Motor mo3 = mo1 + 0.5f;
 }
