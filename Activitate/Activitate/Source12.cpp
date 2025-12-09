@@ -10,4 +10,12 @@ private:
     string model;
     int ani;
     float* consumKm;
+public:
+    Auto() {
+        this->marca = "";
+        this->model = "";
+        this->ani = 0;
+        this->consumKm = nullptr;
+    }
+
 };
