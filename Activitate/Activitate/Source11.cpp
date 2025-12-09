@@ -308,4 +308,5 @@ int main() {
     ServiceAuto s1("AutoFix", 5, 3, salarii);
     ServiceAuto s2;
     s2 = s1;
+    ServiceAuto s3 = s1 + 2;
 }
