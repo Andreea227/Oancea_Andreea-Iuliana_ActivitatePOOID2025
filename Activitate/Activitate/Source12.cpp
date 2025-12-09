@@ -27,4 +27,14 @@ public:
             this->consumKm[i] = consumKm[i];
         }
     }
+    Auto(const Auto& a) {
+        this->marca = a.marca;
+        this->model = a.model;
+        this->ani = a.ani;
+
+        this->consumKm = new float[a.ani];
+        for (int i = 0; i < a.ani; i++) {
+            this->consumKm[i] = a.consumKm[i];
+        }
+    }
 };
