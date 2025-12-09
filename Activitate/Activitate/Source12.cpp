@@ -42,4 +42,7 @@ public:
             delete[] this->consumKm;
         }
     }
+    int getAni() const {
+        return this->ani;
+    }
 };
