@@ -298,4 +298,7 @@ int main() {
     cout << (m1 < m3 ? "m1 mai veche\n" : "m3 mai veche\n");
     cout << "Pret m1[1] = " << m1[1] << endl;
     cout << "Pret mediu m1 = " << pretMediuMasina(m1) << endl;
+    Motor mo1("Diesel", 2.0f, 2, rev);
+    Motor mo2;
+
 }
