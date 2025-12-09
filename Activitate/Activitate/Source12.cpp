@@ -45,4 +45,8 @@ public:
     int getAni() const {
         return this->ani;
     }
+    void setAni(int aniNoi) {
+        this->ani = aniNoi;
+    }
+
 };
