@@ -107,3 +107,7 @@ public:
     friend float pretMediuMasina(const Masina&);
 };
 int Masina::totalMasini = 0;
+
+class Motor {
+
+};
