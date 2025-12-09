@@ -190,3 +190,7 @@ public:
     friend float sumaRevizii(const Motor&);
 };
 int Motor::totalMotoare = 0;
+
+class ServiceAuto {
+
+};
