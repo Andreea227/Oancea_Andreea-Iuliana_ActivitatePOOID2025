@@ -91,4 +91,9 @@ public:
 
         return *this;
     }
+    Masina operator+(int x) const {
+        Masina temp(*this);
+        temp.anFabricatie += x;
+        return temp;
+    }
 };
