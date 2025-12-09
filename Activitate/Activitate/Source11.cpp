@@ -303,4 +303,5 @@ int main() {
     mo2 = mo1;
     Motor mo3 = mo1 + 0.5f;
     cout << (mo1 < mo3) << endl;
+    cout << mo1[0] << endl;
 }
