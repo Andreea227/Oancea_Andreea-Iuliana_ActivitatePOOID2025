@@ -99,4 +99,9 @@ public:
     bool operator<(const Masina& m) const {
         return this->anFabricatie < m.anFabricatie;
     }
+    float operator[](int index) const {
+        if (index >= 0 && index < nrPreturi)
+            return preturi[index];
+        return 0;
+    }
 };
