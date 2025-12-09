@@ -199,4 +199,13 @@ private:
     const int anDeschidere;
     int* salarii;
     int nrSalarii;
+public:
+    ServiceAuto() : anDeschidere(2000) {
+        nume = "Necunoscut";
+        nrMecanici = 0;
+        nrSalarii = 0;
+        salarii = nullptr;
+        totalServiceuri++;
+    }
+
 };
