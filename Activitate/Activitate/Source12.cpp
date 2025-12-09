@@ -37,4 +37,9 @@ public:
             this->consumKm[i] = a.consumKm[i];
         }
     }
+    ~Auto() {
+        if (this->consumKm != nullptr) {
+            delete[] this->consumKm;
+        }
+    }
 };
