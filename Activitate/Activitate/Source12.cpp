@@ -71,4 +71,5 @@ int main() {
     cout << auto2 << endl;
     auto2.setAni(4);
     cout << "Ani noi: " << auto2.getAni() << endl;
+    Auto auto3 = auto2;
 }
