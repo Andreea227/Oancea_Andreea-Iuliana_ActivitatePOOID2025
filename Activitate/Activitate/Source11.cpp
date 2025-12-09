@@ -104,4 +104,5 @@ public:
             return preturi[index];
         return 0;
     }
+    friend float pretMediuMasina(const Masina&);
 };
