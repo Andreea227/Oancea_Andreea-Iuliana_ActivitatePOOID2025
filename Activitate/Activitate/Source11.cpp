@@ -96,4 +96,7 @@ public:
         temp.anFabricatie += x;
         return temp;
     }
+    bool operator<(const Masina& m) const {
+        return this->anFabricatie < m.anFabricatie;
+    }
 };
