@@ -66,4 +66,5 @@ public:
 
 int main() {
     float consum[] = { 7.5, 7.2, 6.9 };
+    Auto auto1;
 }
