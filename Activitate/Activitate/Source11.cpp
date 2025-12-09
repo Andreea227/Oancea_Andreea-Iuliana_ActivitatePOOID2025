@@ -42,5 +42,15 @@ public:
         preturi = nullptr;
         totalMasini++;
     }
+    Masina(string marca, int an, int nrPreturi, float* p) : nrRoti(4) {
+        this->marca = marca;
+        anFabricatie = an;
+        this->nrPreturi = nrPreturi;
 
+        preturi = new float[nrPreturi];
+        for (int i = 0; i < nrPreturi; i++)
+            preturi[i] = p[i];
+
+        totalMasini++;
+    }
 };
