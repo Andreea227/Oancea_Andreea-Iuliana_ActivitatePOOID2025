@@ -77,4 +77,5 @@ int main() {
     else {
         cout << "o2 si o3 sunt diferite." << endl;
     }
+    return 0;
 }
