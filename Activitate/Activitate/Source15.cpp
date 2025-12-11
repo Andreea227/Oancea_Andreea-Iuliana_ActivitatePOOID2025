@@ -86,4 +86,5 @@ int main() {
     MasinaElectrica m3("Renault Zoe", 30000, 300, 3, incarcare2);
     cout << m2 << endl;
     cout << m3 << endl;
+    MasinaElectrica m4 = m2 + m3;
 }
