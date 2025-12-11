@@ -37,4 +37,9 @@ public:
             this->frecvente[i] = im.frecvente[i];
         }
     }
+    ~InstrumentMuzical() {
+        if (this->frecvente != nullptr) {
+            delete[] this->frecvente;
+        }
+    }
 };
