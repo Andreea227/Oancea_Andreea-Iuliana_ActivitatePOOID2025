@@ -19,4 +19,17 @@ public:
         this->nrAni = 0;
         this->incarcareAnuala = nullptr;
     }
+
+    MasinaElectrica(string model, float pret, int autonomie, int nrAni, int* incarcare) {
+        this->model = model;
+        this->pret = pret;
+        this->autonomie = autonomie;
+        this->nrAni = nrAni;
+
+        this->incarcareAnuala = new int[nrAni];
+        for (int i = 0; i < nrAni; i++) {
+            this->incarcareAnuala[i] = incarcare[i];
+        }
+    }
+
 };
