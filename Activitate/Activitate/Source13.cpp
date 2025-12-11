@@ -10,5 +10,11 @@ private:
     float pret;
     int nrMateriale;
     string* materiale;
-
+public:
+    Ornament() {
+        this->nume = "";
+        this->pret = 0;
+        this->nrMateriale = 0;
+        this->materiale = nullptr;
+    }
 };
