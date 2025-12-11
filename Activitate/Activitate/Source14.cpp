@@ -71,4 +71,10 @@ int main() {
     cout << "Pret nou: " << m2.getPret() << " lei" << endl;
     InstrumentMuzical m3 = m2;
     cout << m3 << endl;
+    if (m2 == m3) {
+        cout << "m2 si m3 sunt identice." << endl;
+    }
+    else {
+        cout << "m2 si m3 sunt diferite." << endl;
+    }
 }
