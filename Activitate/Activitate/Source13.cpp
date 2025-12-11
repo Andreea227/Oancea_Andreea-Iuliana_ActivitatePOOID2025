@@ -48,4 +48,7 @@ public:
     void setPret(float p) {
         this->pret = p;
     }
+    bool operator==(const Ornament& o) const {
+        return (this->nume == o.nume && this->pret == o.pret);
+    }
 };
