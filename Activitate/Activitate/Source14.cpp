@@ -64,4 +64,5 @@ public:
 };
 int main() {
     int frecvente[] = { 440, 494, 523 };
+    InstrumentMuzical m1;
 }
