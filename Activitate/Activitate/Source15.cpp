@@ -58,4 +58,9 @@ public:
         this->autonomie = a;
     }
 
+    MasinaElectrica operator+(const MasinaElectrica& m) const {
+        MasinaElectrica rez = *this;
+        rez.autonomie = this->autonomie + m.autonomie;
+        return rez;
+    }
 };
