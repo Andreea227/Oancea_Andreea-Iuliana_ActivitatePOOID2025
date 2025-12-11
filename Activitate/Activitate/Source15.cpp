@@ -81,5 +81,5 @@ public:
 int main() {
     int incarcare1[] = { 50, 60, 55 };
     int incarcare2[] = { 40, 45, 50 };
-
+    MasinaElectrica m1;
 }
