@@ -63,4 +63,17 @@ public:
         rez.autonomie = this->autonomie + m.autonomie;
         return rez;
     }
+
+    friend ostream& operator<<(ostream& out, const MasinaElectrica& m) {
+        out << "Model: " << m.model << endl;
+        out << "Pret: " << m.pret << " euro" << endl;
+        out << "Autonomie: " << m.autonomie << " km" << endl;
+        out << "Ani utilizare: " << m.nrAni << endl;
+
+        for (int i = 0; i < m.nrAni; i++) {
+            out << "  Incarcari anul " << i + 1 << ": " << m.incarcareAnuala[i] << endl;
+        }
+
+        return out;
+    }
 };
