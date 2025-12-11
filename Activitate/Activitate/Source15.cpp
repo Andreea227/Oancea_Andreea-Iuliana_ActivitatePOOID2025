@@ -32,4 +32,15 @@ public:
         }
     }
 
+    MasinaElectrica(const MasinaElectrica& m) {
+        this->model = m.model;
+        this->pret = m.pret;
+        this->autonomie = m.autonomie;
+        this->nrAni = m.nrAni;
+
+        this->incarcareAnuala = new int[m.nrAni];
+        for (int i = 0; i < m.nrAni; i++) {
+            this->incarcareAnuala[i] = m.incarcareAnuala[i];
+        }
+    }
 };
