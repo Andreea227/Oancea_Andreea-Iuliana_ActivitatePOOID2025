@@ -51,4 +51,14 @@ public:
     bool operator==(const Ornament& o) const {
         return (this->nume == o.nume && this->pret == o.pret);
     }
+    friend ostream& operator<<(ostream& out, const Ornament& o) {
+        out << "Nume: " << o.nume << endl;
+        out << "Pret: " << o.pret << " lei" << endl;
+        out << "Numar materiale: " << o.nrMateriale << endl;
+
+        for (int i = 0; i < o.nrMateriale; i++) {
+            out << "  Material " << i + 1 << ": " << o.materiale[i] << endl;
+        }
+        return out;
+    }
 };
