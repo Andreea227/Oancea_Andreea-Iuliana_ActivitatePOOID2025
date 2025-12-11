@@ -53,4 +53,9 @@ public:
     int getAutonomie() const {
         return this->autonomie;
     }
+
+    void setAutonomie(int a) {
+        this->autonomie = a;
+    }
+
 };
