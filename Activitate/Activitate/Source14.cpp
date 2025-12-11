@@ -66,4 +66,5 @@ int main() {
     int frecvente[] = { 440, 494, 523 };
     InstrumentMuzical m1;
     InstrumentMuzical m2("Chitara", 550.0, 3, frecvente);
+    cout << m2 << endl;
 }
