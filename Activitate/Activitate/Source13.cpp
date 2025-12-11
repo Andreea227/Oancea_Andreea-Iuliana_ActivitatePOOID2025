@@ -42,4 +42,7 @@ public:
             delete[] this->materiale;
         }
     }
+    float getPret() const {
+        return this->pret;
+    }
 };
