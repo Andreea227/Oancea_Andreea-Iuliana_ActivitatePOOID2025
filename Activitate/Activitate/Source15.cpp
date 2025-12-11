@@ -83,4 +83,5 @@ int main() {
     int incarcare2[] = { 40, 45, 50 };
     MasinaElectrica m1;
     MasinaElectrica m2("Tesla Model 3", 45000, 450, 3, incarcare1);
+    MasinaElectrica m3("Renault Zoe", 30000, 300, 3, incarcare2);
 }
