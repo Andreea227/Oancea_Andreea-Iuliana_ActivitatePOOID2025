@@ -42,4 +42,7 @@ public:
             delete[] this->frecvente;
         }
     }
+    float getPret() const {
+        return this->pret;
+    }
 };
