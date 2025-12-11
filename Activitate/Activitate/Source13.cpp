@@ -69,4 +69,5 @@ int main() {
     cout << o2 << endl;
     o2.setPret(18.0);
     cout << "Pret nou: " << o2.getPret() << " lei" << endl;
+    Ornament o3 = o2;
 }
