@@ -37,4 +37,9 @@ public:
             this->materiale[i] = o.materiale[i];
         }
     }
+    ~Ornament() {
+        if (this->materiale != nullptr) {
+            delete[] this->materiale;
+        }
+    }
 };
