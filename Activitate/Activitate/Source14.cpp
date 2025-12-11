@@ -10,4 +10,11 @@ private:
     float pret;
     int nrNote;
     int* frecvente;
+public:
+    InstrumentMuzical() {
+        this->nume = "";
+        this->pret = 0;
+        this->nrNote = 0;
+        this->frecvente = nullptr;
+    }
 };
