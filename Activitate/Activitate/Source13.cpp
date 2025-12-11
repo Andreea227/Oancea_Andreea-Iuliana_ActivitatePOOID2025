@@ -67,4 +67,6 @@ int main() {
     Ornament o1;
     Ornament o2("Glob", 15.5, 3, materiale);
     cout << o2 << endl;
+    o2.setPret(18.0);
+    cout << "Pret nou: " << o2.getPret() << " lei" << endl;
 }
