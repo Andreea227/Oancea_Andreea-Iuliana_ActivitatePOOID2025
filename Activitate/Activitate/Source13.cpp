@@ -71,4 +71,10 @@ int main() {
     cout << "Pret nou: " << o2.getPret() << " lei" << endl;
     Ornament o3 = o2;
     cout << o3 << endl;
+    if (o2 == o3) {
+        cout << "o2 si o3 sunt identice." << endl;
+    }
+    else {
+        cout << "o2 si o3 sunt diferite." << endl;
+    }
 }
