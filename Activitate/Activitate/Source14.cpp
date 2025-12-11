@@ -27,4 +27,14 @@ public:
             this->frecvente[i] = frecvente[i];
         }
     }
+    InstrumentMuzical(const InstrumentMuzical& im) {
+        this->nume = im.nume;
+        this->pret = im.pret;
+        this->nrNote = im.nrNote;
+
+        this->frecvente = new int[im.nrNote];
+        for (int i = 0; i < im.nrNote; i++) {
+            this->frecvente[i] = im.frecvente[i];
+        }
+    }
 };
