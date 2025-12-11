@@ -5,5 +5,9 @@
 using namespace std;
 
 class InstrumentMuzical {
-
+private:
+    string nume;
+    float pret;
+    int nrNote;
+    int* frecvente;
 };
