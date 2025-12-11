@@ -67,4 +67,6 @@ int main() {
     InstrumentMuzical m1;
     InstrumentMuzical m2("Chitara", 550.0, 3, frecvente);
     cout << m2 << endl;
+    m2.setPret(600.0);
+    cout << "Pret nou: " << m2.getPret() << " lei" << endl;
 }
