@@ -65,4 +65,5 @@ public:
 int main() {
     string materiale[] = { "Plastic", "Metal", "Sticla" };
     Ornament o1;
+    Ornament o2("Glob", 15.5, 3, materiale);
 }
