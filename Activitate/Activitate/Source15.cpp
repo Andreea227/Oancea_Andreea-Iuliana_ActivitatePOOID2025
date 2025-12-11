@@ -87,4 +87,6 @@ int main() {
     cout << m2 << endl;
     cout << m3 << endl;
     MasinaElectrica m4 = m2 + m3;
+    cout << "Rezultat m2 + m3:" << endl;
+    cout << m4 << endl;
 }
