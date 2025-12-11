@@ -51,4 +51,14 @@ public:
     bool operator==(const InstrumentMuzical& im) const {
         return (this->nume == im.nume && this->pret == im.pret);
     }
+    friend ostream& operator<<(ostream& out, const InstrumentMuzical& im) {
+        out << "Instrument: " << im.nume << endl;
+        out << "Pret: " << im.pret << " lei" << endl;
+        out << "Numar note: " << im.nrNote << endl;
+
+        for (int i = 0; i < im.nrNote; i++) {
+            out << "  Frecventa nota " << i + 1 << ": " << im.frecvente[i] << " Hz" << endl;
+        }
+        return out;
+    }
 };
