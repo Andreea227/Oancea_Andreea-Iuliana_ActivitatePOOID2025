@@ -49,4 +49,8 @@ public:
             delete[] this->incarcareAnuala;
         }
     }
+
+    int getAutonomie() const {
+        return this->autonomie;
+    }
 };
