@@ -70,4 +70,5 @@ int main() {
     m2.setPret(600.0);
     cout << "Pret nou: " << m2.getPret() << " lei" << endl;
     InstrumentMuzical m3 = m2;
+    cout << m3 << endl;
 }
