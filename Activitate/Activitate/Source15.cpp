@@ -43,4 +43,10 @@ public:
             this->incarcareAnuala[i] = m.incarcareAnuala[i];
         }
     }
+
+    ~MasinaElectrica() {
+        if (this->incarcareAnuala != nullptr) {
+            delete[] this->incarcareAnuala;
+        }
+    }
 };
