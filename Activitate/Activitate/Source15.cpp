@@ -5,5 +5,11 @@
 using namespace std;
 
 class MasinaElectrica {
+private:
+    string model;
+    float pret;
+    int autonomie;
+    int nrAni;
+    int* incarcareAnuala;
 
 };
