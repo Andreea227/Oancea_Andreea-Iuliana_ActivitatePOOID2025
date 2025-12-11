@@ -85,4 +85,5 @@ int main() {
     MasinaElectrica m2("Tesla Model 3", 45000, 450, 3, incarcare1);
     MasinaElectrica m3("Renault Zoe", 30000, 300, 3, incarcare2);
     cout << m2 << endl;
+    cout << m3 << endl;
 }
