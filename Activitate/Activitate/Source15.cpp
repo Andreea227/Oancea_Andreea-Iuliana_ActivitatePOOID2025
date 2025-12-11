@@ -11,5 +11,12 @@ private:
     int autonomie;
     int nrAni;
     int* incarcareAnuala;
-
+public:
+    MasinaElectrica() {
+        this->model = "";
+        this->pret = 0;
+        this->autonomie = 0;
+        this->nrAni = 0;
+        this->incarcareAnuala = nullptr;
+    }
 };
