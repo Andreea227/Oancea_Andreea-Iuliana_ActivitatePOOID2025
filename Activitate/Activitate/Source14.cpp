@@ -48,4 +48,7 @@ public:
     void setPret(float p) {
         this->pret = p;
     }
+    bool operator==(const InstrumentMuzical& im) const {
+        return (this->nume == im.nume && this->pret == im.pret);
+    }
 };
