@@ -27,4 +27,14 @@ public:
             this->materiale[i] = materiale[i];
         }
     }
+    Ornament(const Ornament& o) {
+        this->nume = o.nume;
+        this->pret = o.pret;
+        this->nrMateriale = o.nrMateriale;
+
+        this->materiale = new string[o.nrMateriale];
+        for (int i = 0; i < o.nrMateriale; i++) {
+            this->materiale[i] = o.materiale[i];
+        }
+    }
 };
