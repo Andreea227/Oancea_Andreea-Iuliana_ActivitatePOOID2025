@@ -74,4 +74,5 @@ int main() {
     Magazin mg2("MegaImage", 3, preturi1);
     Magazin mg3("Carrefour", 2, preturi2);
     cout << mg2 << endl;
+    cout << mg3 << endl;
 }
