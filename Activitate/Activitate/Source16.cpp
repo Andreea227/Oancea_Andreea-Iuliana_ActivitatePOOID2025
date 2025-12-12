@@ -25,4 +25,14 @@ public:
             this->preturi[i] = preturi[i];
         }
     }
+
+    Magazin(const Magazin& m) {
+        this->nume = m.nume;
+        this->nrProduse = m.nrProduse;
+
+        this->preturi = new float[m.nrProduse];
+        for (int i = 0; i < m.nrProduse; i++) {
+            this->preturi[i] = m.preturi[i];
+        }
+    }
 };
