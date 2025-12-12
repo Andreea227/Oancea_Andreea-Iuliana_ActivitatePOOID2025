@@ -68,5 +68,7 @@ public:
     }
 };
 int main() {
+    float preturi1[] = { 10.5, 20.0, 15.9 };
+    float preturi2[] = { 5.5, 8.0 };
 
 }
