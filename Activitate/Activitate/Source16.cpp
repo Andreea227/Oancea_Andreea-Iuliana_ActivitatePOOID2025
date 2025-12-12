@@ -71,4 +71,5 @@ int main() {
     float preturi1[] = { 10.5, 20.0, 15.9 };
     float preturi2[] = { 5.5, 8.0 };
     Magazin mg1;
+    Magazin mg2("MegaImage", 3, preturi1);
 }
