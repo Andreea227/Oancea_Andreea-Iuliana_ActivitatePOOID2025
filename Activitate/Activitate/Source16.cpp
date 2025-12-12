@@ -49,4 +49,10 @@ public:
     void setNrProduse(int nr) {
         this->nrProduse = nr;
     }
+
+    Magazin operator+(const Magazin& m) const {
+        Magazin rez = *this;
+        rez.nrProduse = this->nrProduse + m.nrProduse;
+        return rez;
+    }
 };
