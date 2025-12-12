@@ -58,4 +58,15 @@ public:
         return this->nrPagini < n.nrPagini;
     }
 
+    friend ostream& operator<<(ostream& out, const Notebook& n) {
+        out << "Notebook brand: " << n.brand << endl;
+        out << "Numar pagini: " << n.nrPagini << endl;
+        out << "Numar note: " << n.nrNote << endl;
+
+        for (int i = 0; i < n.nrNote; i++) {
+            out << "  Nota " << i + 1 << ": " << n.note[i] << endl;
+        }
+
+        return out;
+    }
 };
