@@ -5,5 +5,9 @@
 using namespace std;
 
 class Notebook {
-
+private:
+    string brand;
+    int nrPagini;
+    int nrNote;
+    string* note;
 };
