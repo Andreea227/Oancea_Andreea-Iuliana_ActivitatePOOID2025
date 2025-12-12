@@ -28,4 +28,15 @@ public:
             this->note[i] = note[i];
         }
     }
+
+    Notebook(const Notebook& n) {
+        this->brand = n.brand;
+        this->nrPagini = n.nrPagini;
+        this->nrNote = n.nrNote;
+
+        this->note = new string[n.nrNote];
+        for (int i = 0; i < n.nrNote; i++) {
+            this->note[i] = n.note[i];
+        }
+    }
 };
