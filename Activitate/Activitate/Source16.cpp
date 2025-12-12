@@ -9,5 +9,10 @@ private:
     string nume;
     int nrProduse;
     float* preturi;
-
+public:
+    Magazin() {
+        this->nume = "";
+        this->nrProduse = 0;
+        this->preturi = nullptr;
+    }
 };
