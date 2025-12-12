@@ -53,4 +53,9 @@ public:
     void setNrPagini(int p) {
         this->nrPagini = p;
     }
+
+    bool operator<(const Notebook& n) const {
+        return this->nrPagini < n.nrPagini;
+    }
+
 };
