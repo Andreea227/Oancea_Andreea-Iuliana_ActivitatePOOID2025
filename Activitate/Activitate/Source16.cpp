@@ -5,5 +5,9 @@
 using namespace std;
 
 class Magazin {
+private:
+    string nume;
+    int nrProduse;
+    float* preturi;
 
 };
