@@ -89,4 +89,5 @@ int main() {
     else {
         cout << "n3 NU are mai putine pagini decat n2." << endl;
     }
+    return 0;
 }
