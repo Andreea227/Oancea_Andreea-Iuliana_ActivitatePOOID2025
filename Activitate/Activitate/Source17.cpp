@@ -79,4 +79,6 @@ int main() {
 
     Notebook n2("Oxford", 120, 2, note1);
     Notebook n3("Herlitz", 80, 3, note2);
+
+    cout << n2 << endl;
 }
