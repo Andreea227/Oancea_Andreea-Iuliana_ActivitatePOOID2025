@@ -72,5 +72,7 @@ public:
 };
 
 int main() {
+    string note1[] = { "Tema 1", "Tema 2" };
+    string note2[] = { "Observatie", "Exercitii", "Rezumat" };
 
 }
