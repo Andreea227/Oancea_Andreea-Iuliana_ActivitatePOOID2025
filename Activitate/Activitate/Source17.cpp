@@ -45,4 +45,8 @@ public:
             delete[] this->note;
         }
     }
+
+    int getNrPagini() const {
+        return this->nrPagini;
+    }
 };
