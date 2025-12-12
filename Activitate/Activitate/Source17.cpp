@@ -10,4 +10,11 @@ private:
     int nrPagini;
     int nrNote;
     string* note;
+public:
+    Notebook() {
+        this->brand = "";
+        this->nrPagini = 0;
+        this->nrNote = 0;
+        this->note = nullptr;
+    }
 };
