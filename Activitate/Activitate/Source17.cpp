@@ -49,4 +49,8 @@ public:
     int getNrPagini() const {
         return this->nrPagini;
     }
+
+    void setNrPagini(int p) {
+        this->nrPagini = p;
+    }
 };
