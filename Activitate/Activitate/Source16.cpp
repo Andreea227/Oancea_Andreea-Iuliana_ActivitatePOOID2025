@@ -75,4 +75,5 @@ int main() {
     Magazin mg3("Carrefour", 2, preturi2);
     cout << mg2 << endl;
     cout << mg3 << endl;
+    Magazin mg4 = mg2 + mg3;
 }
