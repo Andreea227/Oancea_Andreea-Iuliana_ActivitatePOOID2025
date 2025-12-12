@@ -55,4 +55,15 @@ public:
         rez.nrProduse = this->nrProduse + m.nrProduse;
         return rez;
     }
+
+    friend ostream& operator<<(ostream& out, const Magazin& m) {
+        out << "Magazin: " << m.nume << endl;
+        out << "Numar produse: " << m.nrProduse << endl;
+
+        for (int i = 0; i < m.nrProduse; i++) {
+            out << "  Pret produs " << i + 1 << ": " << m.preturi[i] << " lei" << endl;
+        }
+
+        return out;
+    }
 };
