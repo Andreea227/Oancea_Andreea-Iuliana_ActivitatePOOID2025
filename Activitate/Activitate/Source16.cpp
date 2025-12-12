@@ -41,4 +41,8 @@ public:
             delete[] this->preturi;
         }
     }
+
+    int getNrProduse() const {
+        return this->nrProduse;
+    }
 };
