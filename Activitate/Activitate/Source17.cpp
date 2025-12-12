@@ -82,4 +82,11 @@ int main() {
 
     cout << n2 << endl;
     cout << n3 << endl;
+
+    if (n3 < n2) {
+        cout << "n3 are mai putine pagini decat n2." << endl;
+    }
+    else {
+        cout << "n3 NU are mai putine pagini decat n2." << endl;
+    }
 }
