@@ -35,4 +35,10 @@ public:
             this->preturi[i] = m.preturi[i];
         }
     }
+
+    ~Magazin() {
+        if (this->preturi != nullptr) {
+            delete[] this->preturi;
+        }
+    }
 };
