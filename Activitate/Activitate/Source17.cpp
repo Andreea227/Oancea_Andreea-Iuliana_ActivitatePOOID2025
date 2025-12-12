@@ -39,4 +39,10 @@ public:
             this->note[i] = n.note[i];
         }
     }
+
+    ~Notebook() {
+        if (this->note != nullptr) {
+            delete[] this->note;
+        }
+    }
 };
