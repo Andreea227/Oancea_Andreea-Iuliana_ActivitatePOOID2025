@@ -17,4 +17,15 @@ public:
         this->nrNote = 0;
         this->note = nullptr;
     }
+
+    Notebook(string brand, int nrPagini, int nrNote, string* note) {
+        this->brand = brand;
+        this->nrPagini = nrPagini;
+        this->nrNote = nrNote;
+
+        this->note = new string[nrNote];
+        for (int i = 0; i < nrNote; i++) {
+            this->note[i] = note[i];
+        }
+    }
 };
