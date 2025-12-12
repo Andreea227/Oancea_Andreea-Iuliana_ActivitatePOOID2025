@@ -76,4 +76,6 @@ int main() {
     cout << mg2 << endl;
     cout << mg3 << endl;
     Magazin mg4 = mg2 + mg3;
+    cout << "Rezultat mg2 + mg3:" << endl;
+    cout << mg4 << endl;
 }
