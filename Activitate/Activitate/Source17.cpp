@@ -81,4 +81,5 @@ int main() {
     Notebook n3("Herlitz", 80, 3, note2);
 
     cout << n2 << endl;
+    cout << n3 << endl;
 }
