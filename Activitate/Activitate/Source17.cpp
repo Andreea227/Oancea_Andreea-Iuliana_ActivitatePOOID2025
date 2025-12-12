@@ -78,5 +78,5 @@ int main() {
     Notebook n1;
 
     Notebook n2("Oxford", 120, 2, note1);
-
+    Notebook n3("Herlitz", 80, 3, note2);
 }
