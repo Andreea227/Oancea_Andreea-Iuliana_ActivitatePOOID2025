@@ -45,4 +45,8 @@ public:
     int getNrProduse() const {
         return this->nrProduse;
     }
+
+    void setNrProduse(int nr) {
+        this->nrProduse = nr;
+    }
 };
