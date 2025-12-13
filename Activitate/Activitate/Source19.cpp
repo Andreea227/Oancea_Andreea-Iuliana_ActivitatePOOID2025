@@ -43,4 +43,8 @@ public:
     int getNrSume() const {
         return nrSume;
     }
+
+    void setNrSume(int nr) {
+        nrSume = nr;
+    }
 };
