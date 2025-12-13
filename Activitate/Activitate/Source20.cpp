@@ -76,4 +76,6 @@ int main() {
 
     EchipamentSportiv e1;
     EchipamentSportiv e2("Tricou sport", 120.5, 3, marimi);
+
+    cout << e2 << endl;
 }
