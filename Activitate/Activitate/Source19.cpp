@@ -66,5 +66,5 @@ int main() {
     float s2[] = { 50 };
 
     Tranzactie t1("Plata", 2, s1);
- 
+    Tranzactie t2("Incasare", 1, s2);
 }
