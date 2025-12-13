@@ -57,4 +57,16 @@ public:
     bool operator!=(const EchipamentSportiv& e) const {
         return (this->denumire != e.denumire || this->pret != e.pret);
     }
+
+    friend ostream& operator<<(ostream& out, const EchipamentSportiv& e) {
+        out << "Echipament: " << e.denumire << endl;
+        out << "Pret: " << e.pret << " lei" << endl;
+        out << "Numar marimi: " << e.nrMarimi << endl;
+
+        for (int i = 0; i < e.nrMarimi; i++) {
+            out << "  Marime " << i + 1 << ": " << e.marimi[i] << endl;
+        }
+
+        return out;
+    }
 };
