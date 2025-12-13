@@ -62,5 +62,6 @@ public:
 };
 
 int main() {
-
+    float s1[] = { 100, 200 };
+    float s2[] = { 50 };
 }
