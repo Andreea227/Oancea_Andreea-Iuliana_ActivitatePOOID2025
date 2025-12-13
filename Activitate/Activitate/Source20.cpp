@@ -39,4 +39,10 @@ public:
             this->marimi[i] = e.marimi[i];
         }
     }
+
+    ~EchipamentSportiv() {
+        if (this->marimi != nullptr) {
+            delete[] this->marimi;
+        }
+    }
 };
