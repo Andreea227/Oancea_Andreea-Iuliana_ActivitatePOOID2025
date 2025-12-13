@@ -52,4 +52,13 @@ public:
     ~Rezervare() {
         delete[] costZilnic;
     }
+
+    friend ostream& operator<<(ostream& out, const Rezervare& r) {
+        out << "Client: " << r.numeClient << endl;
+        out << "Zile: " << r.nrZile << endl;
+        for (int i = 0; i < r.nrZile; i++) {
+            out << "  Zi " << i + 1 << ": " << r.costZilnic[i] << " lei" << endl;
+        }
+        return out;
+    }
 };
