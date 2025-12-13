@@ -69,4 +69,5 @@ int main() {
     Rezervare r2;
     r2 = r1;
     cout << r2 << endl;
+    return 0;
 }
