@@ -49,4 +49,7 @@ public:
         }
         return *this;
     }
+    ~Rezervare() {
+        delete[] costZilnic;
+    }
 };
