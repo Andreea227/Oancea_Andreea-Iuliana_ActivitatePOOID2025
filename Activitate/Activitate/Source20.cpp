@@ -81,4 +81,6 @@ int main() {
 
     e2.setPret(135.0);
     cout << "Pret nou: " << e2.getPret() << " lei" << endl;
+
+    EchipamentSportiv e3 = e2;
 }
