@@ -16,4 +16,13 @@ public:
         costZilnic = nullptr;
     }
 
+    Rezervare(string numeClient, int nrZile, float* cost) {
+        this->numeClient = numeClient;
+        this->nrZile = nrZile;
+
+        costZilnic = new float[nrZile];
+        for (int i = 0; i < nrZile; i++) {
+            costZilnic[i] = cost[i];
+        }
+    }
 };
