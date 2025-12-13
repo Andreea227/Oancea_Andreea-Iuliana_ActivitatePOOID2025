@@ -5,5 +5,9 @@
 using namespace std;
 
 class Tranzactie {
+private:
+    string tip;
+    int nrSume;
+    float* sume;
 
 };
