@@ -78,4 +78,7 @@ int main() {
     EchipamentSportiv e2("Tricou sport", 120.5, 3, marimi);
 
     cout << e2 << endl;
+
+    e2.setPret(135.0);
+    cout << "Pret nou: " << e2.getPret() << " lei" << endl;
 }
