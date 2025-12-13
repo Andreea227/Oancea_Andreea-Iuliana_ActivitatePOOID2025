@@ -25,4 +25,15 @@ public:
             costZilnic[i] = cost[i];
         }
     }
+
+    Rezervare(const Rezervare& r) {
+        numeClient = r.numeClient;
+        nrZile = r.nrZile;
+
+        costZilnic = new float[nrZile];
+        for (int i = 0; i < nrZile; i++) {
+            costZilnic[i] = r.costZilnic[i];
+        }
+    }
+
 };
