@@ -72,4 +72,6 @@ int main() {
     Tranzactie t3 = t1 + t2;
 
     cout << t3 << endl;
+
+    return 0;
 }
