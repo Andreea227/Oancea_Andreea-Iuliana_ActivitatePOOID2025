@@ -84,4 +84,11 @@ int main() {
 
     EchipamentSportiv e3 = e2;
     cout << e3 << endl;
+
+    if (e2 != e3) {
+        cout << "e2 si e3 sunt diferite." << endl;
+    }
+    else {
+        cout << "e2 si e3 sunt identice." << endl;
+    }
 }
