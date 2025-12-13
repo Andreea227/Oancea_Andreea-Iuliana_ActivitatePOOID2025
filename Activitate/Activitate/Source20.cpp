@@ -91,4 +91,6 @@ int main() {
     else {
         cout << "e2 si e3 sunt identice." << endl;
     }
+
+    return 0;
 }
