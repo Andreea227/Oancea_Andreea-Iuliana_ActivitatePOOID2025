@@ -70,4 +70,6 @@ int main() {
 
     cout << "Nr sume t1: " << t1.getNrSume() << endl;
     Tranzactie t3 = t1 + t2;
+
+    cout << t3 << endl;
 }
