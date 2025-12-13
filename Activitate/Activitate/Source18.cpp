@@ -67,4 +67,5 @@ int main() {
     float c[] = { 200, 180 };
     Rezervare r1("Popescu", 2, c);
     Rezervare r2;
+    r2 = r1;
 }
