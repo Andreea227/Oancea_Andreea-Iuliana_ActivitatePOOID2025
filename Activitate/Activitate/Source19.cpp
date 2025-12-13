@@ -53,4 +53,10 @@ public:
         rez.nrSume = this->nrSume + t.nrSume;
         return rez;
     }
+
+    friend ostream& operator<<(ostream& out, const Tranzactie& t) {
+        out << "Tranzactie: " << t.tip << endl;
+        out << "Numar sume: " << t.nrSume << endl;
+        return out;
+    }
 };
