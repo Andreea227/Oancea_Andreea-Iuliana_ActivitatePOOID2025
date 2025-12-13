@@ -53,4 +53,8 @@ public:
     void setPret(float p) {
         this->pret = p;
     }
+
+    bool operator!=(const EchipamentSportiv& e) const {
+        return (this->denumire != e.denumire || this->pret != e.pret);
+    }
 };
