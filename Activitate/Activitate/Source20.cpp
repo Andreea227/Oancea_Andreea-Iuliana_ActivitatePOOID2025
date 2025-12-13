@@ -83,4 +83,5 @@ int main() {
     cout << "Pret nou: " << e2.getPret() << " lei" << endl;
 
     EchipamentSportiv e3 = e2;
+    cout << e3 << endl;
 }
