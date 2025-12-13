@@ -75,4 +75,5 @@ int main() {
     int marimi[] = { 38, 40, 42 };
 
     EchipamentSportiv e1;
+    EchipamentSportiv e2("Tricou sport", 120.5, 3, marimi);
 }
