@@ -9,5 +9,10 @@ private:
     string tip;
     int nrSume;
     float* sume;
-
+public:
+    Tranzactie() {
+        tip = "";
+        nrSume = 0;
+        sume = nullptr;
+    }
 };
