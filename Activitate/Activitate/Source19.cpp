@@ -69,4 +69,5 @@ int main() {
     Tranzactie t2("Incasare", 1, s2);
 
     cout << "Nr sume t1: " << t1.getNrSume() << endl;
+    Tranzactie t3 = t1 + t2;
 }
