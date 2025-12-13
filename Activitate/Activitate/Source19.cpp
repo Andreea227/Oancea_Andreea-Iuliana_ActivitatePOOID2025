@@ -67,4 +67,6 @@ int main() {
 
     Tranzactie t1("Plata", 2, s1);
     Tranzactie t2("Incasare", 1, s2);
+
+    cout << "Nr sume t1: " << t1.getNrSume() << endl;
 }
