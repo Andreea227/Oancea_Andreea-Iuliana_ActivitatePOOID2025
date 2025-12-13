@@ -47,4 +47,10 @@ public:
     void setNrSume(int nr) {
         nrSume = nr;
     }
+
+    Tranzactie operator+(const Tranzactie& t) const {
+        Tranzactie rez = *this;
+        rez.nrSume = this->nrSume + t.nrSume;
+        return rez;
+    }
 };
