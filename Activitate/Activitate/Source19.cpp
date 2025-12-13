@@ -35,4 +35,8 @@ public:
             sume[i] = t.sume[i];
         }
     }
+
+    ~Tranzactie() {
+        delete[] sume;
+    }
 };
