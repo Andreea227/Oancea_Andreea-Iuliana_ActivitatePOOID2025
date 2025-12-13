@@ -25,4 +25,14 @@ public:
             this->sume[i] = sume[i];
         }
     }
+
+    Tranzactie(const Tranzactie& t) {
+        tip = t.tip;
+        nrSume = t.nrSume;
+
+        sume = new float[nrSume];
+        for (int i = 0; i < nrSume; i++) {
+            sume[i] = t.sume[i];
+        }
+    }
 };
