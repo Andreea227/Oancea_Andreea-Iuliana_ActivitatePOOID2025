@@ -15,4 +15,14 @@ public:
         nrSume = 0;
         sume = nullptr;
     }
+
+    Tranzactie(string tip, int nrSume, float* sume) {
+        this->tip = tip;
+        this->nrSume = nrSume;
+
+        this->sume = new float[nrSume];
+        for (int i = 0; i < nrSume; i++) {
+            this->sume[i] = sume[i];
+        }
+    }
 };
