@@ -72,5 +72,5 @@ public:
 };
 
 int main() {
-
+    int marimi[] = { 38, 40, 42 };
 }
