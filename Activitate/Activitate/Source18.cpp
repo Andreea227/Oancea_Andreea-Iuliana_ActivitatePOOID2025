@@ -35,5 +35,18 @@ public:
             costZilnic[i] = r.costZilnic[i];
         }
     }
+    Rezervare& operator=(const Rezervare& r) {
+        if (this != &r) {
+            delete[] costZilnic;
 
+            numeClient = r.numeClient;
+            nrZile = r.nrZile;
+
+            costZilnic = new float[nrZile];
+            for (int i = 0; i < nrZile; i++) {
+                costZilnic[i] = r.costZilnic[i];
+            }
+        }
+        return *this;
+    }
 };
