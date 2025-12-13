@@ -9,4 +9,11 @@ private:
     string numeClient;
     int nrZile;
     float* costZilnic;
+public:
+    Rezervare() {
+        numeClient = "";
+        nrZile = 0;
+        costZilnic = nullptr;
+    }
+
 };
