@@ -39,4 +39,8 @@ public:
     ~Tranzactie() {
         delete[] sume;
     }
+
+    int getNrSume() const {
+        return nrSume;
+    }
 };
