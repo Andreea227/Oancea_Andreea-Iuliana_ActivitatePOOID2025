@@ -64,4 +64,7 @@ public:
 int main() {
     float s1[] = { 100, 200 };
     float s2[] = { 50 };
+
+    Tranzactie t1("Plata", 2, s1);
+ 
 }
