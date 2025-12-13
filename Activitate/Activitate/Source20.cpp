@@ -28,4 +28,15 @@ public:
             this->marimi[i] = marimi[i];
         }
     }
+
+    EchipamentSportiv(const EchipamentSportiv& e) {
+        this->denumire = e.denumire;
+        this->pret = e.pret;
+        this->nrMarimi = e.nrMarimi;
+
+        this->marimi = new int[e.nrMarimi];
+        for (int i = 0; i < e.nrMarimi; i++) {
+            this->marimi[i] = e.marimi[i];
+        }
+    }
 };
