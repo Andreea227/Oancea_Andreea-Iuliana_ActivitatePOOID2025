@@ -59,4 +59,7 @@ public:
         aux.pret += valoare;
         return aux;
     }
+    bool operator>(const Apartament& a) const {
+        return this->pret > a.pret;
+    }
 };
