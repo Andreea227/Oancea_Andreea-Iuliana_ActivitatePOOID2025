@@ -27,4 +27,15 @@ public:
             this->capacitati[i] = capacitati[i];
         }
     }
+    VehiculElectric(const VehiculElectric& v) {
+        this->model = v.model;
+        this->pret = v.pret;
+        this->nrBaterii = v.nrBaterii;
+
+        this->capacitati = new int[v.nrBaterii];
+        for (int i = 0; i < v.nrBaterii; i++) {
+            this->capacitati[i] = v.capacitati[i];
+        }
+    }
+
 };
