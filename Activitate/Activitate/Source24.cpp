@@ -27,4 +27,15 @@ public:
             this->suprafete[i] = suprafete[i];
         }
     }
+    Apartament(const Apartament& a) {
+        this->adresa = a.adresa;
+        this->pret = a.pret;
+        this->nrCamere = a.nrCamere;
+
+        this->suprafete = new float[a.nrCamere];
+        for (int i = 0; i < a.nrCamere; i++) {
+            this->suprafete[i] = a.suprafete[i];
+        }
+    }
+
 };
