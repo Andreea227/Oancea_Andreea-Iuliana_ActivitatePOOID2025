@@ -59,6 +59,23 @@ public:
         return (this->denumire != p.denumire || this->pret != p.pret);
     }
 
+    ProdusSportiv& operator=(const ProdusSportiv& p) {
+        if (this != &p) {
+            this->denumire = p.denumire;
+            this->pret = p.pret;
+            this->nrMarimi = p.nrMarimi;
+
+            if (this->marimi != nullptr) {
+                delete[] this->marimi;
+            }
+
+            this->marimi = new int[p.nrMarimi];
+            for (int i = 0; i < p.nrMarimi; i++) {
+                this->marimi[i] = p.marimi[i];
+            }
+        }
+        return *this;
+    }
 
     friend ostream& operator<<(ostream& out, const ProdusSportiv& p) {
         out << "Produs sportiv: " << p.denumire << endl;
@@ -83,5 +100,7 @@ int main() {
 
     p2.setPret(199.99);
     cout << "Pret nou: " << p2.getPret() << " lei" << endl;
+
+   
 
 }
