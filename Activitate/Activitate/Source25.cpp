@@ -73,4 +73,10 @@ public:
     bool operator==(const Colectie& c) const {
         return (this->nrElemente == c.nrElemente);
     }
+
+    friend ostream& operator<<(ostream& out, const Colectie& c) {
+        out << "Colectie: " << c.nume << endl;
+        out << "Numar elemente: " << c.nrElemente << endl;
+        return out;
+    }
 };
