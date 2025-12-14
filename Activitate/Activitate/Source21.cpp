@@ -75,4 +75,6 @@ public:
 
 int main() {
     int marimi[] = { 36, 38, 40 };
+
+    ProdusSportiv p1;
 }
