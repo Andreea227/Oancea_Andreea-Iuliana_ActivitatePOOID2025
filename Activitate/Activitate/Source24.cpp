@@ -75,4 +75,10 @@ int main() {
     Apartament a1("Str. Unirii", 120000, 2, sup);
 
     Apartament a2 = a1 + 10000;
+
+    if (a2 > a1) {
+        cout << "a2 este mai scump." << endl;
+    }
+
+    cout << a2 << endl;
 }
