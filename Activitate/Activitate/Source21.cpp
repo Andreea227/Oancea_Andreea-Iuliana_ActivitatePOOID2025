@@ -103,5 +103,6 @@ int main() {
 
     ProdusSportiv p3 = p2;
    
+    cout << p3 << endl;
 
 }
