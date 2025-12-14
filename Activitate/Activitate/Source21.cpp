@@ -112,4 +112,5 @@ int main() {
         cout << "p2 si p3 sunt identice." << endl;
     }
 
+    return 0;
 }
