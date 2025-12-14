@@ -80,4 +80,8 @@ int main() {
     ProdusSportiv p2("Pantaloni sport", 180.0, 3, marimi);
 
     cout << p2 << endl;
+
+    p2.setPret(199.99);
+    cout << "Pret nou: " << p2.getPret() << " lei" << endl;
+
 }
