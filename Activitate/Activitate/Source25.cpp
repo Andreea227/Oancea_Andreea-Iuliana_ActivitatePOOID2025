@@ -46,4 +46,9 @@ public:
         }
         return *this;
     }
+
+    ~Colectie() {
+        delete[] this->elemente;
+    }
+
 };
