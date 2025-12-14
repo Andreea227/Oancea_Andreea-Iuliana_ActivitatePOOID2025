@@ -88,4 +88,11 @@ int main() {
     cout << "Primul element: " << c1[0] << endl;
 
     Colectie c2 = c1;
+
+    if (c1 == c2) {
+        cout << "Colectiile sunt egale." << endl;
+    }
+    else {
+        cout << "Colectiile sunt diferite." << endl;
+    }
 }
