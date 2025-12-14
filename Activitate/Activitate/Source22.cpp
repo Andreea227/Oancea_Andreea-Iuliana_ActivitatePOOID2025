@@ -89,4 +89,7 @@ int main() {
     DispozitivElectronic d2("Router WiFi", 450.5, 3, module);
 
     cout << d2 << endl;
+
+    d2.setPret(499.99);
+    cout << "Pret nou: " << d2.getPret() << " lei" << endl;
 }
