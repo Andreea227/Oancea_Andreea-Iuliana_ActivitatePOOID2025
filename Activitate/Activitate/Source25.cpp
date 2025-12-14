@@ -33,4 +33,17 @@ public:
             this->elemente[i] = c.elemente[i];
         }
     }
+    Colectie& operator=(const Colectie& c) {
+        if (this != &c) {
+            this->nume = c.nume;
+            this->nrElemente = c.nrElemente;
+
+            delete[] this->elemente;
+            this->elemente = new int[c.nrElemente];
+            for (int i = 0; i < c.nrElemente; i++) {
+                this->elemente[i] = c.elemente[i];
+            }
+        }
+        return *this;
+    }
 };
