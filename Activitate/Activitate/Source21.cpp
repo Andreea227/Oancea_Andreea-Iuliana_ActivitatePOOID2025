@@ -45,4 +45,8 @@ public:
             delete[] this->marimi;
         }
     }
+
+    float getPret() const {
+        return this->pret;
+    }
 };
