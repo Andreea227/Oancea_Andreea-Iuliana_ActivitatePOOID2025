@@ -86,4 +86,6 @@ int main() {
     Colectie c1("Obiecte", 3, v);
     cout << c1 << endl;
     cout << "Primul element: " << c1[0] << endl;
+
+    Colectie c2 = c1;
 }
