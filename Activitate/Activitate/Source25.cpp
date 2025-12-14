@@ -80,3 +80,7 @@ public:
         return out;
     }
 };
+
+int main() {
+
+}
