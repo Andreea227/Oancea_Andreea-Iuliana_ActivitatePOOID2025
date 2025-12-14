@@ -54,4 +54,9 @@ public:
         }
         return *this;
     }
+
+    ~DispozitivElectronic() {
+        delete[] this->module;
+    }
+
 };
