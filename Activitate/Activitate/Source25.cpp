@@ -62,4 +62,11 @@ public:
     int getNrElemente() const {
         return this->nrElemente;
     }
+
+    int operator[](int index) const {
+        if (index >= 0 && index < this->nrElemente) {
+            return this->elemente[index];
+        }
+        return -1;
+    }
 };
