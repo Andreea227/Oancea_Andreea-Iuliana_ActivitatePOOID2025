@@ -66,4 +66,9 @@ public:
     void setPret(float pret) {
         this->pret = pret;
     }
+
+    bool operator!=(const DispozitivElectronic& d) const {
+        return (this->denumire != d.denumire || this->pret != d.pret);
+    }
+
 };
