@@ -69,4 +69,8 @@ public:
         }
         return -1;
     }
+
+    bool operator==(const Colectie& c) const {
+        return (this->nrElemente == c.nrElemente);
+    }
 };
