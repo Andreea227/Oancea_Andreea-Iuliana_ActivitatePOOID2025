@@ -28,4 +28,15 @@ public:
             this->module[i] = module[i];
         }
     }
+
+    DispozitivElectronic(const DispozitivElectronic& d) {
+        this->denumire = d.denumire;
+        this->pret = d.pret;
+        this->nrModule = d.nrModule;
+
+        this->module = new int[d.nrModule];
+        for (int i = 0; i < d.nrModule; i++) {
+            this->module[i] = d.module[i];
+        }
+    }
 };
