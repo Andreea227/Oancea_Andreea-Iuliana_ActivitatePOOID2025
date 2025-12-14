@@ -73,4 +73,6 @@ public:
 int main() {
     float sup[] = { 20.5, 18.3 };
     Apartament a1("Str. Unirii", 120000, 2, sup);
+
+    Apartament a2 = a1 + 10000;
 }
