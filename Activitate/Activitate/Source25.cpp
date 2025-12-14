@@ -9,5 +9,10 @@ private:
     string nume;
     int nrElemente;
     int* elemente;
-
+public:
+    Colectie() {
+        this->nume = "";
+        this->nrElemente = 0;
+        this->elemente = nullptr;
+    }
 };
