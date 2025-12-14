@@ -60,5 +60,7 @@ public:
     void setPret(float pret) {
         this->pret = pret;
     }
-
+    bool operator!=(const VehiculElectric& v) const {
+        return (this->model != v.model || this->pret != v.pret);
+    }
 };
