@@ -39,4 +39,19 @@ public:
             this->module[i] = d.module[i];
         }
     }
+
+    DispozitivElectronic& operator=(const DispozitivElectronic& d) {
+        if (this != &d) {
+            this->denumire = d.denumire;
+            this->pret = d.pret;
+            this->nrModule = d.nrModule;
+
+            delete[] this->module;
+            this->module = new int[d.nrModule];
+            for (int i = 0; i < d.nrModule; i++) {
+                this->module[i] = d.module[i];
+            }
+        }
+        return *this;
+    }
 };
