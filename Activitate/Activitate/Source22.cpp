@@ -17,4 +17,15 @@ public:
         this->nrModule = 0;
         this->module = nullptr;
     }
+
+    DispozitivElectronic(string denumire, float pret, int nrModule, int* module) {
+        this->denumire = denumire;
+        this->pret = pret;
+        this->nrModule = nrModule;
+
+        this->module = new int[nrModule];
+        for (int i = 0; i < nrModule; i++) {
+            this->module[i] = module[i];
+        }
+    }
 };
