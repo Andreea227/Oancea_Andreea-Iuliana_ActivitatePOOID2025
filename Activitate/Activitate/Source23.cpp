@@ -10,4 +10,11 @@ private:
     float pret;
     int nrBaterii;
     int* capacitati;
+public:
+    VehiculElectric() {
+        this->model = "";
+        this->pret = 0;
+        this->nrBaterii = 0;
+        this->capacitati = nullptr;
+    }
 };
