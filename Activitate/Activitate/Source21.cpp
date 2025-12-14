@@ -5,5 +5,10 @@
 using namespace std;
 
 class ProdusSportiv {
+private:
+    string denumire;
+    float pret;
+    int nrMarimi;
+    int* marimi;
 
 };
