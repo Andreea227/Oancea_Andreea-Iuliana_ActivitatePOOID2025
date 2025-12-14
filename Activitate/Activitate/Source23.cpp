@@ -95,5 +95,5 @@ int main() {
         cout << "v2 si v3 sunt identice." << endl;
     }
 
-
+    return 0;
 }
