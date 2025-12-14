@@ -81,4 +81,6 @@ int main() {
     }
 
     cout << a2 << endl;
+
+    return 0;
 }
