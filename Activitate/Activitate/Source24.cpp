@@ -5,5 +5,9 @@
 using namespace std;
 
 class Apartament {
-
+private:
+    string adresa;
+    float pret;
+    int nrCamere;
+    float* suprafete;
 };
