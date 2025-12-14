@@ -17,4 +17,14 @@ public:
         this->nrBaterii = 0;
         this->capacitati = nullptr;
     }
+    VehiculElectric(string model, float pret, int nrBaterii, int* capacitati) {
+        this->model = model;
+        this->pret = pret;
+        this->nrBaterii = nrBaterii;
+
+        this->capacitati = new int[nrBaterii];
+        for (int i = 0; i < nrBaterii; i++) {
+            this->capacitati[i] = capacitati[i];
+        }
+    }
 };
