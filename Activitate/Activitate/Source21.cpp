@@ -101,6 +101,7 @@ int main() {
     p2.setPret(199.99);
     cout << "Pret nou: " << p2.getPret() << " lei" << endl;
 
+    ProdusSportiv p3 = p2;
    
 
 }
