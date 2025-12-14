@@ -5,5 +5,9 @@
 using namespace std;
 
 class Colectie {
+private:
+    string nume;
+    int nrElemente;
+    int* elemente;
 
 };
