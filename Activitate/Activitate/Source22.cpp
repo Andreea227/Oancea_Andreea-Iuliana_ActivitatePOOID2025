@@ -84,4 +84,6 @@ public:
 
 int main() {
     int module[] = { 101, 202, 303 };
+
+    DispozitivElectronic d1;
 }
