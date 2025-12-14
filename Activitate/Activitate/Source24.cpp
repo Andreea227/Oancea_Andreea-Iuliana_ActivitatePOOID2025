@@ -10,4 +10,11 @@ private:
     float pret;
     int nrCamere;
     float* suprafete;
+public:
+    Apartament() {
+        this->adresa = "";
+        this->pret = 0;
+        this->nrCamere = 0;
+        this->suprafete = nullptr;
+    }
 };
