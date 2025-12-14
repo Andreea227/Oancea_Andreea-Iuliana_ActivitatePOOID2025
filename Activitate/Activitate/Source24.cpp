@@ -37,5 +37,18 @@ public:
             this->suprafete[i] = a.suprafete[i];
         }
     }
+    Apartament& operator=(const Apartament& a) {
+        if (this != &a) {
+            this->adresa = a.adresa;
+            this->pret = a.pret;
+            this->nrCamere = a.nrCamere;
 
+            delete[] this->suprafete;
+            this->suprafete = new float[a.nrCamere];
+            for (int i = 0; i < a.nrCamere; i++) {
+                this->suprafete[i] = a.suprafete[i];
+            }
+        }
+        return *this;
+    }
 };
