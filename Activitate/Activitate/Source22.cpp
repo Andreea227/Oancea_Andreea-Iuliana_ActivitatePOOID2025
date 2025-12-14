@@ -103,4 +103,5 @@ int main() {
         cout << "d2 si d3 sunt identice." << endl;
     }
 
+    return 0;
 }
