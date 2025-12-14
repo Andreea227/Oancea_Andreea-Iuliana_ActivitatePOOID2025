@@ -94,4 +94,5 @@ int main() {
     cout << "Pret nou: " << d2.getPret() << " lei" << endl;
 
     DispozitivElectronic d3 = d2;
+    cout << d3 << endl;
 }
