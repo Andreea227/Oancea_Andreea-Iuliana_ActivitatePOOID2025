@@ -62,4 +62,10 @@ public:
     bool operator>(const Apartament& a) const {
         return this->pret > a.pret;
     }
+    friend ostream& operator<<(ostream& out, const Apartament& a) {
+        out << "Adresa: " << a.adresa << endl;
+        out << "Pret: " << a.pret << endl;
+        out << "Camere: " << a.nrCamere << endl;
+        return out;
+    }
 };
