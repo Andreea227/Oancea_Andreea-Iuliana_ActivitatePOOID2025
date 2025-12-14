@@ -59,4 +59,7 @@ public:
         delete[] this->module;
     }
 
+    float getPret() const {
+        return this->pret;
+    }
 };
