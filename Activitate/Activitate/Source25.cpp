@@ -24,4 +24,13 @@ public:
             this->elemente[i] = elemente[i];
         }
     }
+    Colectie(const Colectie& c) {
+        this->nume = c.nume;
+        this->nrElemente = c.nrElemente;
+
+        this->elemente = new int[c.nrElemente];
+        for (int i = 0; i < c.nrElemente; i++) {
+            this->elemente[i] = c.elemente[i];
+        }
+    }
 };
