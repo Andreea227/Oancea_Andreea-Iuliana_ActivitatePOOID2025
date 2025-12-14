@@ -59,4 +59,16 @@ public:
         return (this->denumire != p.denumire || this->pret != p.pret);
     }
 
+
+    friend ostream& operator<<(ostream& out, const ProdusSportiv& p) {
+        out << "Produs sportiv: " << p.denumire << endl;
+        out << "Pret: " << p.pret << " lei" << endl;
+        out << "Numar marimi: " << p.nrMarimi << endl;
+
+        for (int i = 0; i < p.nrMarimi; i++) {
+            out << "  Marime " << i + 1 << ": " << p.marimi[i] << endl;
+        }
+
+        return out;
+    }
 };
