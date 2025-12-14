@@ -88,4 +88,5 @@ int main() {
     DispozitivElectronic d1;
     DispozitivElectronic d2("Router WiFi", 450.5, 3, module);
 
+    cout << d2 << endl;
 }
