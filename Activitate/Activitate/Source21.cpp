@@ -78,4 +78,6 @@ int main() {
 
     ProdusSportiv p1;
     ProdusSportiv p2("Pantaloni sport", 180.0, 3, marimi);
+
+    cout << p2 << endl;
 }
