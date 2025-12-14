@@ -71,4 +71,13 @@ public:
         return (this->denumire != d.denumire || this->pret != d.pret);
     }
 
+    friend ostream& operator<<(ostream& out, const DispozitivElectronic& d) {
+        out << "Dispozitiv: " << d.denumire << endl;
+        out << "Pret: " << d.pret << " lei" << endl;
+        out << "Numar module: " << d.nrModule << endl;
+        for (int i = 0; i < d.nrModule; i++) {
+            out << " Modul " << i + 1 << ": " << d.module[i] << endl;
+        }
+        return out;
+    }
 };
