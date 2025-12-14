@@ -17,4 +17,14 @@ public:
         this->nrCamere = 0;
         this->suprafete = nullptr;
     }
+    Apartament(string adresa, float pret, int nrCamere, float* suprafete) {
+        this->adresa = adresa;
+        this->pret = pret;
+        this->nrCamere = nrCamere;
+
+        this->suprafete = new float[nrCamere];
+        for (int i = 0; i < nrCamere; i++) {
+            this->suprafete[i] = suprafete[i];
+        }
+    }
 };
