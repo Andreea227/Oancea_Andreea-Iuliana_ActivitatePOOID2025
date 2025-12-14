@@ -37,5 +37,19 @@ public:
             this->capacitati[i] = v.capacitati[i];
         }
     }
+    VehiculElectric& operator=(const VehiculElectric& v) {
+        if (this != &v) {
+            this->model = v.model;
+            this->pret = v.pret;
+            this->nrBaterii = v.nrBaterii;
+
+            delete[] this->capacitati;
+            this->capacitati = new int[v.nrBaterii];
+            for (int i = 0; i < v.nrBaterii; i++) {
+                this->capacitati[i] = v.capacitati[i];
+            }
+        }
+        return *this;
+    }
 
 };
