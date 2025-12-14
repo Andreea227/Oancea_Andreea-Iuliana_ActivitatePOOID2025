@@ -76,4 +76,6 @@ public:
 
 int main() {
     int capacitati[] = { 50, 60 };
+
+    VehiculElectric v1;
 }
