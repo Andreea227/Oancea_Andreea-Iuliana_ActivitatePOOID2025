@@ -95,4 +95,6 @@ int main() {
     else {
         cout << "Colectiile sunt diferite." << endl;
     }
+
+    return 0;
 }
