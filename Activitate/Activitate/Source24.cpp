@@ -54,5 +54,9 @@ public:
     ~Apartament() {
         delete[] this->suprafete;
     }
-
+    Apartament operator+(float valoare) const {
+        Apartament aux = *this;
+        aux.pret += valoare;
+        return aux;
+    }
 };
