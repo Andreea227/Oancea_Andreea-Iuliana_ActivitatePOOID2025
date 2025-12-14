@@ -71,5 +71,5 @@ public:
 };
 
 int main() {
-
+    float sup[] = { 20.5, 18.3 };
 }
