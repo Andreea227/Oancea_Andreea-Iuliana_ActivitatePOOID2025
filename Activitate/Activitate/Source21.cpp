@@ -28,4 +28,15 @@ public:
             this->marimi[i] = marimi[i];
         }
     }
+
+    ProdusSportiv(string denumire, float pret, int nrMarimi, int* marimi) {
+        this->denumire = denumire;
+        this->pret = pret;
+        this->nrMarimi = nrMarimi;
+
+        this->marimi = new int[nrMarimi];
+        for (int i = 0; i < nrMarimi; i++) {
+            this->marimi[i] = marimi[i];
+        }
+    }
 };
