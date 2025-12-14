@@ -58,4 +58,8 @@ public:
     void setNume(string nume) {
         this->nume = nume;
     }
+
+    int getNrElemente() const {
+        return this->nrElemente;
+    }
 };
