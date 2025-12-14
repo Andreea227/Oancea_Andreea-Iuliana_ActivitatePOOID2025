@@ -84,4 +84,5 @@ public:
 int main() {
     int v[] = { 10, 20, 30 };
     Colectie c1("Obiecte", 3, v);
+    cout << c1 << endl;
 }
