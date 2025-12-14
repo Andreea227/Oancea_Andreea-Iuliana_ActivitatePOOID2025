@@ -86,6 +86,7 @@ int main() {
     cout << "Pret nou: " << v2.getPret() << " lei" << endl;
 
     VehiculElectric v3 = v2;
+    cout << v3 << endl;
 
 
 }
