@@ -78,4 +78,6 @@ int main() {
     int capacitati[] = { 50, 60 };
 
     VehiculElectric v1;
+    VehiculElectric v2("Model E", 120000, 2, capacitati);
+
 }
