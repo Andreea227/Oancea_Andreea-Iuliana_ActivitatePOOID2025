@@ -51,4 +51,8 @@ public:
         }
         return *this;
     }
+    ~Apartament() {
+        delete[] this->suprafete;
+    }
+
 };
