@@ -51,4 +51,7 @@ public:
         delete[] this->elemente;
     }
 
+    string getNume() const {
+        return this->nume;
+    }
 };
