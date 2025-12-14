@@ -95,4 +95,12 @@ int main() {
 
     DispozitivElectronic d3 = d2;
     cout << d3 << endl;
+
+    if (d2 != d3) {
+        cout << "d2 si d3 sunt diferite." << endl;
+    }
+    else {
+        cout << "d2 si d3 sunt identice." << endl;
+    }
+
 }
