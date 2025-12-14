@@ -63,4 +63,13 @@ public:
     bool operator!=(const VehiculElectric& v) const {
         return (this->model != v.model || this->pret != v.pret);
     }
+    friend ostream& operator<<(ostream& out, const VehiculElectric& v) {
+        out << "Vehicul: " << v.model << endl;
+        out << "Pret: " << v.pret << " lei" << endl;
+        out << "Numar baterii: " << v.nrBaterii << endl;
+        for (int i = 0; i < v.nrBaterii; i++) {
+            out << " Capacitate " << i + 1 << ": " << v.capacitati[i] << endl;
+        }
+        return out;
+    }
 };
