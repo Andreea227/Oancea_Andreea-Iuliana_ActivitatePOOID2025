@@ -88,5 +88,12 @@ int main() {
     VehiculElectric v3 = v2;
     cout << v3 << endl;
 
+    if (v2 != v3) {
+        cout << "v2 si v3 sunt diferite." << endl;
+    }
+    else {
+        cout << "v2 si v3 sunt identice." << endl;
+    }
+
 
 }
