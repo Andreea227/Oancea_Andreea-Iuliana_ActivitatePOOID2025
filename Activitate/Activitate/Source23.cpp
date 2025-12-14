@@ -85,5 +85,7 @@ int main() {
     v2.setPret(115000);
     cout << "Pret nou: " << v2.getPret() << " lei" << endl;
 
+    VehiculElectric v3 = v2;
+
 
 }
