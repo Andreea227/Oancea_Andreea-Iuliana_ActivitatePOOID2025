@@ -39,4 +39,10 @@ public:
             this->marimi[i] = marimi[i];
         }
     }
+
+    ~ProdusSportiv() {
+        if (this->marimi != nullptr) {
+            delete[] this->marimi;
+        }
+    }
 };
