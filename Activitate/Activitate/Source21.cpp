@@ -105,4 +105,11 @@ int main() {
    
     cout << p3 << endl;
 
+    if (p2 != p3) {
+        cout << "p2 si p3 sunt diferite." << endl;
+    }
+    else {
+        cout << "p2 si p3 sunt identice." << endl;
+    }
+
 }
