@@ -10,5 +10,11 @@ private:
     float pret;
     int nrMarimi;
     int* marimi;
-
+public:
+    ProdusSportiv() {
+        this->denumire = "";
+        this->pret = 0;
+        this->nrMarimi = 0;
+        this->marimi = nullptr;
+    }
 };
