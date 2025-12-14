@@ -5,5 +5,9 @@
 using namespace std;
 
 class VehiculElectric {
-
+private:
+    string model;
+    float pret;
+    int nrBaterii;
+    int* capacitati;
 };
