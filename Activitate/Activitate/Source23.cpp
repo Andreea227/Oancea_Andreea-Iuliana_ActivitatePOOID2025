@@ -82,4 +82,8 @@ int main() {
 
     cout << v2 << endl;
 
+    v2.setPret(115000);
+    cout << "Pret nou: " << v2.getPret() << " lei" << endl;
+
+
 }
