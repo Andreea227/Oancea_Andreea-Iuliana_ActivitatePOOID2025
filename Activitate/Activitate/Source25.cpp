@@ -15,4 +15,13 @@ public:
         this->nrElemente = 0;
         this->elemente = nullptr;
     }
+    Colectie(string nume, int nrElemente, int* elemente) {
+        this->nume = nume;
+        this->nrElemente = nrElemente;
+
+        this->elemente = new int[nrElemente];
+        for (int i = 0; i < nrElemente; i++) {
+            this->elemente[i] = elemente[i];
+        }
+    }
 };
