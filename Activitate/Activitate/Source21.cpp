@@ -54,4 +54,9 @@ public:
         this->pret = pret;
     }
 
+
+    bool operator!=(const ProdusSportiv& p) const {
+        return (this->denumire != p.denumire || this->pret != p.pret);
+    }
+
 };
