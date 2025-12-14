@@ -86,4 +86,6 @@ int main() {
     int module[] = { 101, 202, 303 };
 
     DispozitivElectronic d1;
+    DispozitivElectronic d2("Router WiFi", 450.5, 3, module);
+
 }
