@@ -54,4 +54,8 @@ public:
     string getNume() const {
         return this->nume;
     }
+
+    void setNume(string nume) {
+        this->nume = nume;
+    }
 };
