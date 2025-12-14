@@ -75,5 +75,5 @@ public:
 };
 
 int main() {
-
+    int capacitati[] = { 50, 60 };
 }
