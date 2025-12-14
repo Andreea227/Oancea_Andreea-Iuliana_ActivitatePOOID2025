@@ -51,5 +51,8 @@ public:
         }
         return *this;
     }
+    ~VehiculElectric() {
+        delete[] this->capacitati;
+    }
 
 };
