@@ -62,4 +62,8 @@ public:
     float getPret() const {
         return this->pret;
     }
+
+    void setPret(float pret) {
+        this->pret = pret;
+    }
 };
