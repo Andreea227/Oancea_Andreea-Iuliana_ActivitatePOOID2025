@@ -54,5 +54,8 @@ public:
     ~VehiculElectric() {
         delete[] this->capacitati;
     }
+    float getPret() const {
+        return this->pret;
+    }
 
 };
